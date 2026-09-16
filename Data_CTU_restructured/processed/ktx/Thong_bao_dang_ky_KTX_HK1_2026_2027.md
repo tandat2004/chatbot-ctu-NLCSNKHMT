@@ -10,7 +10,8 @@ hoc_ky_ap_dung: 'học kỳ 1, năm học 2026 - 2027'
 kiem_tra_lai_vao: 'học kỳ 1, năm học 2026 - 2027'
 ---
 
- 
+# Thông báo về việc đăng ký ở KTX
+
 ĐẠI HỌC CẦN THƠ 
 PHÒNG CÔNG TÁC SINH VIÊN 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 

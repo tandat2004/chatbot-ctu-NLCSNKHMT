@@ -11,19 +11,9 @@ kiem_tra_lai_vao: 'Học kỳ 1, năm học 2026-2027'
 ghi_chu: 'Nguồn động — nội dung có thể thay đổi theo thời gian, không phải văn bản pháp quy chính thức'
 ---
 
- 
- 
-BỘ GIÁO DỤC VÀ ĐÀO TẠO 
-TRƯỜNG ĐẠI HỌC CẦN THƠ 
- 
-CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
-Độc lập - Tự do - Hạnh phúc 
-SỐ TAY SINH VIÊN 
-(Kèm theo Quyết định số:       /QĐ-ĐHCT, ngày   tháng 9 năm 2025  
-của Hiệu trưởng Trường Đại học Cần Thơ) 
- 
- 
-GIỚI THIỆU VỀ ĐẠI HỌC CẦN THƠ 
+# Sổ tay sinh viên năm học 2025-2026
+
+## GIỚI THIỆU VỀ ĐẠI HỌC CẦN THƠ 
 Đại học Cần Thơ (ĐHCT), cơ sở đào tạo đại học và sau đại học trọng điểm của Nhà 
 nước ở ĐBSCL, là trung tâm văn hóa - khoa học kỹ thuật của vùng. Trường đã không ngừng 
 hoàn thiện và phát triển. Hiện nay Trường đào tạo từ trình độ đại học (trong đó có chương 
@@ -58,8 +48,8 @@ sáng tạo và luôn đổi mới. Hoạt động quản lý của Trường s�
 
  
  
-SINH VIÊN CẦN BIẾT 
-A. Công tác hỗ trợ sinh viên (SV) 
+## SINH VIÊN CẦN BIẾT 
+### A. Công tác hỗ trợ sinh viên (SV) 
 1. Phòng Công tác Sinh viên (CTSV) - https://dsa.ctu.edu.vn. 
 - Chế độ miễn, giảm học phí; 
 - Hỗ trợ chi phí học tập; 
@@ -142,7 +132,7 @@ ngành học mà đơn vị chịu tránh nhiệm quản lý) đối với n
 
  
  
-B. Các đơn vị hỗ trợ khác 
+### B. Các đơn vị hỗ trợ khác 
 1. Phòng Kế hoạch và Tài chính 
 - Phát tiền học bổng khuyến khích học tập; 
 - Tạm ứng - thanh toán đề tài NCKH; 
@@ -155,7 +145,7 @@ B. Các đơn vị hỗ trợ khác
 - Xử lý lỗi kỹ thuật, mật khẩu của Tài khoản và email SV. 
 4. Thư viện Đại học Cần Thơ 
 -  Làm thẻ sinh viên, thủ tục mượn sách, trả sách tại Thư viện Đại học Cần Thơ. 
-C. Công tác đánh giá điểm rèn luyện trực tuyến 
+### C. Công tác đánh giá điểm rèn luyện trực tuyến 
 1. Quy trình 
 https://dsa.ctu.edu.vn/images/upload/vbanply/2025/4-Congtacsinhvien.pdf 
 2. Quy chế đánh giá điểm rèn luyện 
@@ -164,72 +154,3 @@ https://dsa.ctu.edu.vn/images/upload/vbanply/2025/Vanban_CapTruong/03_6175KHTH_1
  
  
  
-3. Nhật ký rèn luyện 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ ,  rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
- 
- 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ ,  rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
- 
- 
- 
- 
- 
- 
- 
-Học kỳ (HK)............... Năm học: ............ - ....................  
-Kết quả học tập: ................ , Kết quả rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
-Học kỳ (HK)............... Năm học: ............ - ....................  
-Kết quả học tập:  ................ , Kết quả rèn luyện rèn luyện:  .........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK:
-
- 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ , rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ , rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK:
-
- 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ , rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ , rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK:
-
- 
- 
-Học kỳ (HK)............... Năm học: ............ - ...................  
-Kết quả học tập: ................ , rèn luyện: ..........  
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 
- 
-Học kỳ (HK)............... Năm học: ............ - 
-Kết quả học tập: ................ , rèn luyện: 
-Các phong trào, hoạt động ngoại khóa SV đã tham gia trong HK: 

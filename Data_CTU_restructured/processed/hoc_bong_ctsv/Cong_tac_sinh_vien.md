@@ -5,11 +5,13 @@ so_hieu: 'Tổng hợp nhiều văn bản — xem chi tiết theo từng mục'
 tieu_de: 'LĨNH VỰC CÔNG TÁC SINH VIÊN'
 source_url: 'https://dsa.ctu.edu.vn/'
 cap_ban_hanh: 'Trường ĐHCT'
-hieu_luc_tu: 'null'
+hieu_luc_tu: null
 hoc_ky_ap_dung: 'học kì 1, năm học 2026 - 2027'
-kiem_tra_lai_vao: 'null'
+kiem_tra_lai_vao: null
 ghi_chu: 'Nguồn động — nội dung có thể thay đổi theo thời gian, không phải văn bản pháp quy chính thức'
 ---
+
+# LĨNH VỰC CÔNG TÁC SINH VIÊN
 
 LĨNH VỰC CÔNG TÁC SINH VIÊN  
  

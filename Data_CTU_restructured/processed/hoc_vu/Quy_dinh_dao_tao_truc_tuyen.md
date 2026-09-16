@@ -6,8 +6,8 @@ tieu_de: 'Ban hành Quy định tổ chức đào tạo trực tuyến của Tr�
 source_url: 'https://daa.ctu.edu.vn/van-ban/van-ban-cua-truong'
 cap_ban_hanh: 'Trường ĐHCT'
 hieu_luc_tu: '2024-06-19'
-hoc_ky_ap_dung: 'null'
-kiem_tra_lai_vao: 'null'
+hoc_ky_ap_dung: null
+kiem_tra_lai_vao: null
 ---
 
 BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM

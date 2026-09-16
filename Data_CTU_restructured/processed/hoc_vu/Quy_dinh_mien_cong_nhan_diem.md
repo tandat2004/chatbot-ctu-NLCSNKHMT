@@ -6,9 +6,11 @@ tieu_de: 'Ban hành Quy định xét miễn và công nhận điểm học phầ
 source_url: 'https://daa.ctu.edu.vn/van-ban/van-ban-cua-truong'
 cap_ban_hanh: 'Trường ĐHCT'
 hieu_luc_tu: '2024-06-19'
-hoc_ky_ap_dung: 'null'
-kiem_tra_lai_vao: 'null'
+hoc_ky_ap_dung: null
+kiem_tra_lai_vao: null
 ---
+
+# Ban hành Quy định xét miễn và công nhận điểm học phần
 
 BỘ GIÁO DỤC VÀ ĐÀO TẠO _ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
@@ -855,38 +857,4 @@ TRƯỜNG ĐẠI HỌC CÂN THƠ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 TRƯỜNG (KHOA/VIỆN) Độc lập — Tự do - Hạnh phúc
 DANH SÁCH SINH VIÊN
 ĐƯỢC MIỄN THỊ VÀ TÍNH ĐIÊM HỌC PHẢN DO ĐƯỢC CỬ THAM GIA
-KỲ THI/CUỘC THỊ ....................... -... ---  ---- ---
-Mã số Họ và tên Mã số ˆ À sÃ x
-1 sinh viên sinh viên học phần lan nang THÊM | GHÏ GHI
-
-Đính kèm là các bản sao Quyết định cử sinh viên tham dự kỳ thi/cuộc thi của
-Hiệu trưởng Trường ĐHCT, văn bản thành tích đạt được của sinh viên trong kỳ
-thi/cuộc thi.............
-Cân Thơ ngày tháng năm 20...
-
-TRƯỞNG ĐOÀN TRƯỞNG ĐƠN VỊ
-(ký tên và ghi rõ họ tên) (ký tên và ghi rõ họ tên)
-Ghi chú:
-
-- Danh sách sinh viên được miễn thi và tính điểm học phần do được cử tham dự kỳ
-thi/cuộc thi bằng văn bản và bằng e-file có đính kèm theo các bản sao Quyết định cử sinh viên
-tham dự kỳ thi/cuộc thi của Hiệu trưởng Trường ĐHCT, văn bản thành tích đạt được của sinh
-viên trong kỳ thi/cuộc thi và các văn bản khác nếu có được gửi đến Hội đồng Xét miễn và
-công nhận điểm học phần Trường ĐHCT thông qua Phòng Đào tạo.
-
-- Cách ghi thông tin trong bảng trên như sau:
-
-+ Cột “TT”: ghi số thứ tự sinh viên trong danh sách
-
-+ Cột “Mã số sinh viên”: ghi Mã số của SV (chi ghỉ 1 lần tương ứng với số thứ tự)
-
-+ Cột “Họ và tên sinh viên”: ghi họ và tên SV (chỉ ghi 1 lần tương ứng với số thứ tự)
-
-+ Cột “Mã số học phần”: chi mã số học phần thuộc CTĐT mà SV được xét miễn thi
-
-+ Cột “Tên học phần”: ghi tên học phần tương ứng với mã số học phần
-
-+ Cột “Điểm”: ghi điểm theo thang điểm chữ.
-
-+ Cột “Ghi chú”: ghi ngắn gọn thành tích sinh viên đạt được (ví đụ: “giải nhất”). Nếu
-không có thành tích thì ghi là “Tham dự kỳ thi/cuộc thi”.
+KỲ THI/CUỘC THỊ ....................... -... 

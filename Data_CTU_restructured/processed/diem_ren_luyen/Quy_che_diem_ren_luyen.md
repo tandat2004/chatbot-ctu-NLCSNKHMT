@@ -11,6 +11,8 @@ kiem_tra_lai_vao: 'Học kỳ 1, năm học 2026 - 2027'
 ghi_chu: 'Nguồn động — nội dung có thể thay đổi theo thời gian, không phải văn bản pháp quy chính thức'
 ---
 
+# Ban hành Quy chế công tác đánh giá kết quả rèn luyện của sinh viên Trường Đại học Cần Thơ
+
 BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 TRƯƠNG ĐẠI HỌC CAN THƠ Độc lập - Tự do - Hạnh phúc
 

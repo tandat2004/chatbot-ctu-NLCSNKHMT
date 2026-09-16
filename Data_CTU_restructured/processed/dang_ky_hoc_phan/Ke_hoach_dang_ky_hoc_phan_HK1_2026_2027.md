@@ -10,9 +10,9 @@ hoc_ky_ap_dung: 'học kỳ 1, năm học 2026-2027'
 kiem_tra_lai_vao: 'học kỳ 1, năm học 2026-2027'
 ---
 
- 
- 
- BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+# Kế hoạch giảng dạy và đăng ký học phần học kỳ 1 năm học 2026-2027
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
  ĐẠI HỌC CẦN THƠ Độc lập - Tự do - Hạnh phúc 
  
  Số:                 /ĐHCT-ĐT Cần Thơ, ngày          tháng 7 năm 2026           

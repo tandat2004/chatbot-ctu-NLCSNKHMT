@@ -1,6 +1,6 @@
 # 📚 Data_CTU_restructured — Kho dữ liệu RAG Trợ lý Sinh viên CTU
 
-> Cập nhật: 2026-09-11 | Phiên bản: 1.0
+> Cập nhật: 2026-09-16 | Phiên bản: 1.2
 
 ---
 
@@ -76,25 +76,26 @@ Tạo file `<ten_file>.meta.json` đặt cùng thư mục với file gốc:
 
 ---
 
-## Trạng thái hiện tại (2026-09-11)
+## Trạng thái hiện tại (2026-09-16)
 
 | Thư mục | Raw | Processed | FAQ |
 |---|---|---|---|
-| handbook | ✅ 1 file | ⬜ Chưa | ⬜ Chưa |
-| hoc_vu | ✅ 4 files | ⬜ Chưa | ⬜ Chưa |
-| dang_ky_hoc_phan | ✅ 1 file | ⬜ Chưa | ⬜ Chưa |
-| hoc_phi | ✅ 4 files | ⬜ Chưa | ⬜ Chưa |
-| ktx | ✅ 2 files | ⬜ Chưa | ⬜ Chưa |
-| hoc_bong_ctsv | ✅ 2 files | ⬜ Chưa | ⬜ Chưa |
-| danh_muc_nganh | ✅ 1 file | ⬜ Chưa | ⬜ Chưa |
-| doan_hoi | 🔗 Web source | ⬜ Chưa | ⬜ Chưa |
+| handbook | ✅ 1 file | ✅ Xong | ✅ Xong (`faq_handbook.md`) |
+| hoc_vu | ✅ 4 files | ✅ Xong | ✅ Xong (`faq_hoc_vu.md`) |
+| dang_ky_hoc_phan | ✅ 1 file | ✅ Xong | ✅ Xong (`faq_dang_ky_hoc_phan.md`) |
+| hoc_phi | ✅ 4 files | ✅ Xong | ✅ Xong (`faq_hoc_phi.md`) |
+| ktx | ✅ 2 files | ✅ Xong | ✅ Xong (`faq_ktx.md`) |
+| hoc_bong_ctsv | ✅ 2 files | ✅ Xong | ✅ Xong (`faq_hoc_bong_ctsv.md`) |
+| danh_muc_nganh | ✅ 1 file | ✅ Xong | ✅ Xong (`faq_danh_muc_nganh.md`) |
+| diem_ren_luyen | ✅ 1 file | ✅ Xong | (nằm trong `faq_hoc_bong_ctsv.md`) |
+| doan_hoi | 🔗 Web source | ✅ Xong | ✅ Xong (`faq_doan_hoi.md`) |
 
 ---
 
 ## Bước tiếp theo
 
-1. [ ] Tạo `.meta.json` cho từng file trong `raw/`
-2. [ ] Chuyển đổi PDF → `.md` vào `processed/` (dùng tool OCR/PDF parser)
-3. [ ] Xây dựng bảng FAQ theo từng chủ đề trong `faq/`
-4. [ ] Thu thập dữ liệu Đoàn - Hội từ nguồn web chính thức
+1. [x] Tạo `.meta.json` cho từng file trong `raw/`
+2. [x] Chuyển đổi PDF → `.md` vào `processed/` (dùng tool OCR/PDF parser)
+3. [x] Xây dựng bảng FAQ theo từng chủ đề trong `faq/` — **8 chủ đề hoàn thành**: Học phí, Đăng ký học phần, Ký túc xá, Học bổng & CTSV, Học vụ, Sổ tay sinh viên, Danh mục ngành, Đoàn-Hội (tổng **36** cặp câu hỏi - trả lời).
+4. [x] Thu thập dữ liệu Đoàn - Hội từ nguồn web chính thức (đã tổng hợp tại `processed/doan_hoi/doan_hoi_tong_hop.md`)
 5. [ ] Index vào vector database (ChromaDB / Pinecone / FAISS)
