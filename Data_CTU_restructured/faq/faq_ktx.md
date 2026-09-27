@@ -86,3 +86,34 @@ Ngoài phí lưu trú KTX, sinh viên phải nộp thêm:
 **📎 Nguồn:** `processed/ktx/Thong_bao_dang_ky_KTX_HK1_2026_2027.md` (Mục 5)
 
 **⚠️ Lưu ý:** Sinh viên chuẩn bị xét tốt nghiệp nếu vẫn còn trạng thái ở KTX trên HTQL sẽ bị báo nợ, dẫn đến chậm nhận quyết định tốt nghiệp và không được hoàn phí trả chỗ trước hạn.
+---
+
+### FAQ-KTX-009
+
+**❓ Câu hỏi:** Sinh viên năm nhất có bắt buộc phải ở ký túc xá không?
+
+**💬 Trả lời:** Không có quy định bắt buộc — việc ở KTX tại CTU được thực hiện theo hình thức **đăng ký** (sinh viên có nhu cầu thì đăng ký, không phải chỗ ở được phân bổ tự động bắt buộc). Sinh viên không đăng ký ở KTX có thể tự tìm nhà trọ bên ngoài (xem công cụ "Bản đồ nhà trọ sinh viên" ở mục KTX/Nhà trọ).
+
+**📎 Nguồn:** `raw/ktx/huong_dan_dang_ky_ktx.pdf` (suy luận từ việc toàn bộ quy trình được mô tả là "đăng ký", không phải phân bổ bắt buộc)
+
+**⚠️ Lưu ý:** Đây là suy luận hợp lý từ cách trình bày quy trình đăng ký (không tìm thấy văn bản CTU nào phát biểu trực tiếp "không bắt buộc" hay "bắt buộc"). Nếu cần câu trả lời chắc chắn 100%, nên xác nhận lại với Trung tâm Phục vụ Sinh viên trước khi công bố chính thức.
+
+---
+
+### FAQ-KTX-010
+
+**❓ Câu hỏi:** Thủ tục đăng ký ở ký túc xá gồm những gì? Quy trình đăng ký KTX như thế nào?
+
+**💬 Trả lời:**
+Thủ tục và quy trình đăng ký ở ký túc xá (KTX) gồm các bước sau:
+1. **Đăng ký chỗ ở:**
+   - Sinh viên thực hiện đăng ký trực tuyến qua Hệ thống Quản lý (HTQL) KTX của Trường bằng tài khoản sinh viên (hoặc gửi email đến `ktx@ctu.edu.vn` nếu không đăng ký trực tuyến được).
+   - Điền nguyện vọng ở (loại phòng, nhu cầu). Trường hợp đăng ký theo nhóm, các thành viên ghi chung cú pháp: `Mã SV đại diện nhóm – nhu cầu về chỗ ở` để được ưu tiên bố trí chung phòng.
+2. **Nộp phí ở KTX:**
+   - Sau khi có thông báo sắp chỗ, sinh viên nộp phí theo hạn quy định (nộp cho cả kỳ ở 3,5 tháng) bằng hình thức: quét mã QR Code trên HTQL KTX hoặc chuyển khoản ngân hàng HD Bank theo đúng cú pháp hướng dẫn.
+3. **Nhận chỗ ở KTX:**
+   - Sinh viên theo dõi kết quả sắp xếp phòng trên HTQL KTX hoặc email cá nhân, sau đó đến trực tiếp Văn phòng Trung tâm Phục vụ Sinh viên (Khu A hoặc Khu B) theo lịch để nhận phòng và chìa khóa.
+
+**📎 Nguồn:** `processed/ktx/Thong_bao_dang_ky_KTX_HK1_2026_2027.md` (Mục 2, 4, 6)
+
+**⚠️ Lưu ý:** Đối với sinh viên đang ở cũ (từ học kỳ trước), không cần đăng ký lại từ đầu mà chỉ cần nộp phí đúng hạn để tiếp tục gia hạn chỗ ở.

@@ -71,3 +71,31 @@ Theo Quyết định số 09/2022/QĐ-TTg, sinh viên có hoàn cảnh khó khă
 **📎 Nguồn:** `processed/hoc_phi/QD09_2022_TTg.md`
 
 **⚠️ Lưu ý:** Nếu sinh viên đủ 18 tuổi và hộ gia đình không còn thành viên nào đủ điều kiện đứng tên, sinh viên có thể trực tiếp đứng tên vay vốn.
+---
+
+### FAQ-HP-006
+
+**❓ Câu hỏi:** Học phí học kỳ được nộp bằng cách nào, chuyển khoản vào đâu?
+
+**💬 Trả lời:**
+Học phí được nộp bằng hình thức chuyển khoản qua các ngân hàng đối tác của Trường (Agribank, Sacombank, HDBank, Vietcombank, BIDV, Vietinbank). Mức thu ghi trên phiếu "Kết quả đăng ký học phần". Nội dung chuyển khoản cần ghi đầy đủ: MSSV - Họ tên SV - số điện thoại (ví dụ: B2412345 - NGUYEN VAN A - 0918123456). Thời gian nộp thường kéo dài từ ngày ra thông báo đến một mốc cụ thể được nêu trong thông báo thu học phí của từng học kỳ. Xem chi tiết quy trình đầy đủ tại website dfa.ctu.edu.vn, mục "Quy trình thủ tục > Quy trình đóng học phí". Nếu sau 3 ngày làm việc hệ thống chưa cập nhật, sinh viên chụp minh chứng chuyển khoản gửi cho Phòng Kế hoạch - Tài chính để được xử lý.
+
+**📎 Nguồn:** `raw/hoc_phi/thong_bao_thu_hoc_phi_mau.md` (tổng hợp mẫu thông báo thu học phí các học kỳ gần nhất) URL: https://dfa.ctu.edu.vn
+
+**⚠️ Lưu ý:** Mốc thời gian cụ thể (ngày bắt đầu/kết thúc thu học phí) thay đổi theo từng học kỳ — câu trả lời này mô tả quy trình chung, không phải hạn chót của HK1 2026-2027 cụ thể. Nếu sinh viên hỏi hạn chót chính xác, cần tra thêm thông báo thu học phí riêng của học kỳ đó trên dfa.ctu.edu.vn (mình chưa tìm thấy văn bản này khi thu thập dữ liệu — cần bổ sung nếu có).
+
+---
+
+### FAQ-HP-007
+
+**❓ Câu hỏi:** Không đóng học phí đúng hạn thì bị xử lý thế nào?
+
+**💬 Trả lời:**
+Theo Quy định công tác học vụ của Trường Đại học Cần Thơ (Điều 10, Quyết định số 3266/QĐ-ĐHCT):
+- **Hủy kết quả học tập:** Sau thời hạn đóng học phí, sinh viên không đóng học phí sẽ bị **hủy kết quả học tập** những học phần còn nợ học phí trong học kỳ đó.
+- **Buộc nộp bù:** Sinh viên buộc phải đóng học phí còn nợ cùng lúc với học phí của học kỳ tiếp theo.
+- **Buộc thôi học:** Sinh viên không đóng học phí **2 học kỳ liên tiếp** sẽ bị xử lý **buộc thôi học**.
+
+**📎 Nguồn:** `processed/hoc_vu/QD3266_Quy_dinh_cong_tac_hoc_vu.md` (Điều 10)
+
+**⚠️ Lưu ý:** Để tránh bị hủy kết quả môn học hoặc bị xử lý kỷ luật, sinh viên cần chủ động theo dõi thông báo thời hạn đóng học phí đầu mỗi học kỳ trên website Phòng Công tác Sinh viên (dsa.ctu.edu.vn) hoặc Phòng Kế hoạch - Tài chính.

@@ -22,7 +22,7 @@ trình độ đại học hình thức chính quy
 HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC CẢN THƠ
 
 Căn cứ Luật Giáo dục đại học ngày 18 tháng 6 năm 2012 và Luật sửa đổi, bổ
-sung ImMỘt số điều của Luật Giáo đục đại học ngày 19 tháng l1 năm 2018:
+sung Im MỘt số điều của Luật Giáo đục đại học ngày 19 tháng l1 năm 2018:
 
 Căn cứ Nghị quyết số 99NQ-HĐT ngày 19 tháng 4 năm 2023 của Hội đồng
 trường về việc Ban hành Quy chế tổ chức và hoạt động của Tì rường Đại học Cần Thơ;
@@ -1042,13 +1042,13 @@ Xếp trình độ năm học được xác định dựa vào tổng số TC m�
 không dựa vào thời gian SV vào Trường. Sau môi HK, căn cứ vào khôi lượng TC tích
 lũy, SV được xêp trình độ năm học như sau:
 
-Xếp trình độ | Số TC đã tíchlũy | Số TC đã tíchlũy | Số TC đã tích lũy
+Xếp trình độ | Số TC đã tích lũy | Số TC đã tích lũy | Số TC đã tích lũy
 
 năm học (K.36 đến K.39) (từ K.40 đến K.44) | (từ K.45 trở về sau)
 Năm thứ nhất | Dưới 30 Dưới 36 Dưới 36 — ]
-Năm thứhai | Từ 30 đến dưới 60 | Từ 36 đến 70 Từ 36 đến 70
-Năm thứba | Từ 60 đến dưới 90 | Từ 71 đến 105 Từ 71 đến 105
-Năm thứtư | Từ90 đến dưới 120 | Từ 106 đến 140 Từ 106 đến 141
+Năm thứ hai | Từ 30 đến dưới 60 | Từ 36 đến 70 Từ 36 đến 70
+Năm thứ ba | Từ 60 đến dưới 90 | Từ 71 đến 105 Từ 71 đến 105
+Năm thứ tư | Từ90 đến dưới 120 | Từ 106 đến 140 Từ 106 đến 141
 Năm thứ năm | Từ 120 trở lên Trên 140 Trên 141
 
 

@@ -55,7 +55,7 @@ liên hệ với Phòng CTSV để nhận phiếu“Bảng đánh giá kết qu�
 có tham gia để được cộng ĐRL; 
 - Ban cán sự lớp, Ban chấp hành chi đoàn, CVHT xem xét và đánh giá l ại trên cơ sở các minh 
 chứng của cá nhân. Tổng hợp và báo cáo lại cho Hội đồng Khoa; 
-- Hội đồng đánh giá ĐRL c ấp Khoatổng hợp các QĐ khen thưởng, kỷ luật SV từ các đơn vị có 
+- Hội đồng đánh giá ĐRL c ấp Khoa tổng hợp các QĐ khen thưởng, kỷ luật SV từ các đơn vị có 
 liên quan gửi về, rà soát với danh sách kết quả rèn luyện do CVHT đã xem xét lập danh sách kết 
 quả rèn luyện của Khoa. Thông báo kết quả rèn luyện rộng rãi trong toàn đơn vị để tiếp nhận các 
 thông tin hoặc các ý ki ến, kiến nghị của SV; trực tiếp giải đáp các khiếu nại của SV theo đúng 
@@ -714,7 +714,7 @@ Chú thích: (*) sau khi ti ếp nhận đăng ký online dự tuyển học b�
 báo lại cho sinh viên qua email hoặc trực tiếp bằng điện thoại. 
   
 Thông tin học 
-bổngtài trợ 
+bổng tài trợ 
 Thông báo 
 triển khai 
 Trình Ban 
@@ -886,7 +886,7 @@ CTSV.
  SV thuộc diện đào 
 tạo SQDB tiến hành 
 làm hồ sơ. 
-Các đơn vịquản 
+Các đơn vị quản 
 lý ngành SV và 
 SV có liên quan. 
 07 ngày 

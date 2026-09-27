@@ -104,15 +104,25 @@ Tùy nội dung cần hỗ trợ, sinh viên liên hệ các đơn vị sau:
 
 ### FAQ-HB-005
 
-**❓ Câu hỏi:** Đánh giá điểm rèn luyện trực tuyến quy trình như thế nào?
+**❓ Câu hỏi:** Trường có những kênh liên hệ hỗ trợ sinh viên nào (hotline, email, fanpage...)?
 
 **💬 Trả lời:**
-Công tác đánh giá điểm rèn luyện trực tuyến được thực hiện theo quy trình tại:
-- **Quy trình:** https://dsa.ctu.edu.vn/images/upload/vbanply/2025/4-Congtacsinhvien.pdf
-- **Quy chế đánh giá:** Theo Quyết định số 6175/QĐ-ĐHCT ngày 10/12/2024 (https://dsa.ctu.edu.vn/images/upload/vbanply/2025/Vanban_CapTruong/03_6175KHTH_10-12-2024.pdf)
+Trường Đại học Cần Thơ có các kênh thông tin và liên hệ hỗ trợ sinh viên chính thức:
+- **Cổng thông tin & Website chính:**
+  - Website Trường: `https://ctu.edu.vn`
+  - Cổng Công tác Sinh viên (CTSV): `https://dsa.ctu.edu.vn`
+  - Cổng Đào tạo: `https://daotao.ctu.edu.vn`
+  - Cổng Đoàn Thanh niên - Hội Sinh viên: `https://yu.ctu.edu.vn`
+- **Email & Hotline các phòng ban trọng yếu:**
+  - **Phòng Công tác Sinh viên:** Email `pctsv@ctu.edu.vn` | Tư vấn sức khỏe: (0292) 3 872 115
+  - **Trung tâm Phục vụ Sinh viên (KTX):** Email `ktx@ctu.edu.vn` | ĐT: Khu A: (02923) 872 178; Khu B: (02923) 872 275
+  - **Phòng Đào tạo:** Hỗ trợ đăng ký học phần, học vụ | Email `dhct@ctu.edu.vn`
+  - **Phòng Kế hoạch và Tài chính:** Hỗ trợ học phí | Email `ptson@ctu.edu.vn`
+  - **Bộ phận An ninh & Bảo vệ trường:** Trực 24/7 qua Hotline (0292) 3 781 781; Cổng A: (0292) 3 872 111, Cổng B: (0292) 3 872 112, Cổng C: (0292) 3 872 113
+- **Fanpage Mạng xã hội chính thức:**
+  - Fanpage Trường ĐHCT: `https://facebook.com/CTU.DHCT`
+  - Fanpage Đoàn Thanh niên - Hội Sinh viên ĐHCT: `https://www.facebook.com/CTU.Youth`
 
-Sinh viên cần ghi chép **Nhật ký rèn luyện** theo từng học kỳ, bao gồm: kết quả học tập, kết quả rèn luyện, và các phong trào/hoạt động ngoại khóa đã tham gia.
+**📎 Nguồn:** `processed/handbook/So_tay_sinh_vien_2025.md` & `processed/ktx/Thong_bao_dang_ky_KTX_HK1_2026_2027.md`
 
-**📎 Nguồn:** `processed/handbook/So_tay_sinh_vien_2025.md` (Phần C — Công tác đánh giá điểm rèn luyện trực tuyến)
-
-**⚠️ Lưu ý:** Chi tiết các tiêu chí chấm điểm rèn luyện xem thêm tại `faq/faq_hoc_bong_ctsv.md` (FAQ-HBCTSV-003 và FAQ-HBCTSV-004) hoặc file `processed/diem_ren_luyen/Quy_che_diem_ren_luyen.md`.
+**⚠️ Lưu ý:** Khi liên hệ qua email, sinh viên cần dùng tài khoản email trường cấp (`@student.ctu.edu.vn`) và ghi rõ Họ tên, MSSV, Khóa ngành để được giải quyết nhanh nhất.

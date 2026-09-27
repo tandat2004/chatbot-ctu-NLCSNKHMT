@@ -31,7 +31,7 @@ Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30 tháng 12 năm 2019 của 
 quy định chỉ tiết và hướng dẫn thi hành một số điều của Luật sửa đổi, bồ sung một số
 điễu của Luật Giáo dục đại học;
 
-l Căn cứ Nghị quyết số 2 NQ-HĐT ngày 19 tháng 2 năm 2023 của Hội đông írường
+l Căn cứ Nghị quyết số 2 NQ-HĐT ngày 19 tháng 2 năm 2023 của Hội đồng trường
 về việc Ban hành Quy chê tô chức và hoạt động của Trường Đại học Cân Thơ; Nghị quyêt
 số 1 GIẢNQ-HĐT ngày 19 tháng 4 năm 2024 của Hội đồng trường Trường Đại học Cần
 
@@ -428,7 +428,7 @@ ML009 | Những nguyên lý cơ bản của | 2_ | ML014 | Triết học Mác-L�
 
 Chủ nghĩa Mác-Lênm ]
 ML010 | Những nguyên lý cơ bản của | 3 | ML016 | Kinh tế chính trị Mác-Lênn | 2
-CN ENHBAMI HonI 0BTHnine ML018 | Chủ nghĩa xãhộikhoahọc | 2
+CN ENHBAMI HonI 0BTHnine ML018 | Chủ nghĩa xã hội khoa học | 2
 
 ML011 | Đường lối Cách mạng của | 3 | ML019 | Lịch sử Đảng Cộng sản Việt | 2
 Đảng Cộng sản Việt Nam Nam
@@ -545,7 +545,7 @@ Score | Score | Score | Score | Score | Score
 
 2. Tiếng Pháp
 
-- Băng DELE (Diplôme đ'Emdes en Langue Franeaise). DALF (Diplôme
+- Băng DELE (Dip lô me đ'Emdes en Langue Franeaise). DALF (Dip lô me
 Aproƒondi de Langue Francaise) của Trung tâm Nghiên cứu Sư phạm Quôc Tê
 Sèvres - Pháp (Cenfre International d'Etudes Pédagogiques de Sèvres) câp.
 
@@ -688,7 +688,7 @@ Trường/Học viện ...................................... cà. , cụ thê n
 
 Học phần đã tích lũy trước đây Học phần được xét miễn và công nhận điểm
 
-TT |MãHP| Tênhọcphần | Số TC | Mã HP | Tên học phần | Số TC | Điểm
+TT |MãHP| Tên học phần | Số TC | Mã HP | Tên học phần | Số TC | Điểm
 
 Trân trọng kính chào./.
 Cân Thơ,ngà tháng năm 20...
@@ -817,7 +817,7 @@ DANH SÁCH SINH VIÊN
 (đính kèm Biên bản số... .../BB-...... ngày ... tháng ... năm 20... về xét miễn và
 công nhận điểm học phần của Hiệu trưởng/Trưởng khoa/Viện trưởng)
 
-TTrỊ ,"lãsô BOSAILDB HAY Tênhọcphần | Điểm | Ghi chú
+TTrỊ ,"lãsô BOSAILDB HAY Tên học phần | Điểm | Ghi chú
 sinh viên sinh viên học phần
 TRƯỞNG ĐƠN VỊ TỎ TRƯỞNG THƯ KÝ
 (ký tên và ghi rõ họ tên) (ký tên và ghỉ rõ họ tên) (ký tên và ghi rõ họ tên)

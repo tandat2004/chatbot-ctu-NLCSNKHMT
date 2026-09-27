@@ -59,7 +59,7 @@ Quyết định số 25/QĐ-ĐHCT ngày 10 tháng 01 năm 2022 của Trường �
 
 Quy định tổ chức đào tạo trực tuyến của Trường Đại học Cần Thơ.
 
-## Điều 3. Chánh văn phòng Trường, Trưởng khoa Sau đại học, Irưởng phòng Đào
+## Điều 3. Chánh văn phòng Trường, Trưởng khoa Sau đại học, Trưởng phòng Đào
 tạo, Giám đốc Trung tâm liên kết đào tạo, Giám đốc Trung tâm Thông tin và quản trị mạng
 Trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm thi hành Quyết định _)y
 Nơi nhận: k

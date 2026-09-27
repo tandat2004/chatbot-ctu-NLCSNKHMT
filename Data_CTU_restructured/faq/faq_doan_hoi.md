@@ -107,3 +107,15 @@ Trang văn bản của Hội Sinh viên (https://yu.ctu.edu.vn/van-ban/hoi-sinh-
 **📎 Nguồn:** `processed/doan_hoi/doan_hoi_tong_hop.md` (Mục 4 — Văn bản, quy định)
 
 **⚠️ Lưu ý:** Đây chỉ là **danh mục tên văn bản**, nội dung đầy đủ chưa thu thập được vì các văn bản này thường phân phối nội bộ qua email sinh viên hoặc hệ thống nội bộ của Đoàn-Hội. Sinh viên cần nội dung chi tiết nên liên hệ trực tiếp Hội Sinh viên trường hoặc xem tại link trên.
+---
+
+### FAQ-DH-006
+
+**❓ Câu hỏi:** Sinh viên tham gia hoạt động Đoàn - Hội, câu lạc bộ để làm gì, có bắt buộc không?
+
+**💬 Trả lời:**
+Việc tham gia các câu lạc bộ học thuật, đội nhóm sở thích tại CTU là hoạt động tự nguyện, không bắt buộc — sinh viên đăng ký tham gia theo sở thích và nhu cầu cá nhân. Thông tin về các câu lạc bộ, đội nhóm được công bố trên website đơn vị quản lý ngành và website Đoàn - Hội sinh viên. Tham gia các hoạt động này giúp sinh viên rèn luyện kỹ năng, mở rộng mối quan hệ, và có thể được cộng điểm rèn luyện tùy theo mức độ tham gia (xem thêm faq_diem_ren_luyen.md).
+
+**📎 Nguồn:** `raw/handbook/So_tay_sinh_vien_2025_2026.md` (văn bản 4638/HD-CTSV, mục "2.3 Các Câu lạc bộ học thuật, đội nhóm sở thích tự nguyện")
+
+**⚠️ Lưu ý:** Câu trả lời này chỉ xác nhận được tính "tự nguyện" của CLB/đội nhóm theo đúng văn bản gốc. Về việc sinh hoạt Đoàn/Hội chính thức (với vai trò là đoàn viên/hội viên, khác với CLB tự chọn) có thể có yêu cầu khác — nếu sinh viên hỏi cụ thể hơn về nghĩa vụ đoàn viên, nên khuyến nghị liên hệ trực tiếp Đoàn Thanh niên trường (0292.3830.309) thay vì suy diễn thêm.
