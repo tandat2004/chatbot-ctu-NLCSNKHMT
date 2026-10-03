@@ -1,0 +1,25 @@
+Hệ thống thông tin tích hợp (HTTT) được phát triển để phục vụ công tác quản lý và đào tạo của Trường. Với hệ thống này cán bộ/sinh viên có thể: Đăng ký môn học; Đăng ký kế hoạch học tập; Xem điểm các học phần; Đăng ký ký túc xá; Đánh giá môn học…. Để sử dụng hệ thống thông tin của Trường, cán bộ/sinh viên phải đăng nhập vào hệ thống sử dụng thông tin sau:
+
+**Địa chỉ HTTT:** https://htql.ctu.edu.vn.
+
+**Tài khoản và mật khẩu** : sử dụng ***tài khoản máy tính*** . Đối với sinh viên khóa 40 trở về sau tài khoản máy tính được in trong **Phiếu thu nhận hồ sơ** được phát cho sinh viên khi làm thủ tục nhập học. Sinh viên các khóa 39 trở về trước đã được phát phiêu cung cấp tài khoản máy tính và email khi mới vào Trường.
+
+Giao diện đăng nhập của HTTT như hình bên dưới. Cán bộ/Sinh viên nhập Mã số vào ô “ **Mã số đăng nhập** ”, nhập mật khẩu được cấp vào ô “ **Mật khẩu** ”, mã bảo vệ theo hình hiển thị và nhấp chuột vào nút “ **ĐĂNG NHẬP** ” để đăng nhập vào HTTT.
+
+<!-- image -->
+
+Sau khi đăng nhập vào HTTT lần đầu tiên, hệ thống yêu cầu sinh viên nhập vào thông tin cá nhân như hình bên dưới:
+
+<!-- image -->
+
+Giao diện chính của hệ thống hiên lên như hình bên dưới.Đối với sinh viên, giao diện này gồm 2 phần chính:  (1)  Thông tin liên quan đến sinh viên:  cá nhân,  gia đình và cố vấn học tâp (2) Danh sách các phân hệ.
+
+Để tìm hiểu cách sử dụng các chức năng của các phân hệ sinh viên nhấp vào liên kết “ **Hướng dẫn** ” ở góc trên bên phải của giao diện chính.
+
+Giao diện HTTT dành cho sinh viên.
+
+<!-- image -->
+
+Giao diện HTTT dành cho cán bộ
+
+<!-- image -->

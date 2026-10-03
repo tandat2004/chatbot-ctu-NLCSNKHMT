@@ -1,0 +1,299 @@
+Sổ tay
+
+HƯỚNG DẪN THƯƠNG HIỆU
+
+<!-- image -->
+
+<!-- image -->
+
+MỤC LỤC
+
+Logo	3
+
+Thiết kế	3
+
+Ý nghĩa	3
+
+Tỉ lệ logo	4
+
+Logo đơn sắc	4
+
+Logo kết hợp chữ	5
+
+Logo viết tắt tiếng Anh	7
+
+Một số trường hợp sử dụng logo sai quy cách	7
+
+Logo Các đơn vị thành viên	8
+
+Hệ thống font chữ	9
+
+Font chữ chính	9
+
+Font chữ phụ	9
+
+Hệ thống màu sắc	10
+
+Bộ ấn phẩm văn phòng	11
+
+Giấy tiêu đề thư A4	11
+
+Sổ tay, viết	12
+
+Phong bì	13
+
+Bìa sơ mi	14
+
+Danh thiếp	15
+
+Thẻ tên	16
+
+Quà tặng	17
+
+Áo thun, nón	17
+
+Ly nước	18
+
+Túi	19
+
+Ô, móc khóa	20
+
+Xe	21
+
+Bộ ấn phẩm số	22
+
+Chữ ký email	22
+
+Template PowerPoint	23
+
+Hệ thống logo các website thuộc Trường	24
+
+Băng-rol, áp phích	24
+
+## Logo
+
+<!-- image -->
+
+### Thiết kế
+
+Thiết kế theo hình vuông, được đặt nghiêng một góc 45° so với mặt phẳng nằm ngang. Với 2 hình vuông lồng vào nhau.
+
+Hình vuông nhỏ bên trong màu xanh dương đậm có chứa các họa tiết của logo.
+
+Hình vuông lớn bên ngoài màu xanh dương nhạt hơn có dòng chữ Đại học Cần Thơ màu trắng.
+
+Màu xanh dương của logo đặc trưng cho vùng sông nước Nam bộ.
+
+### Ý nghĩa
+
+Ngọn đuốc cháy sáng với ngọn lửa đỏ (biểu trưng cho khối ngành khoa học giáo dục);
+
+Bánh xe công nghiệp màu vàng (biểu trưng cho khối ngành công nghệ);
+
+Bông lúa vàng (biểu trưng cho khối ngành nông nghiệp);
+
+Bản đồ vùng Đồng bằng sông Cửu Long.
+
+Trong đó, cán của ngọn đuốc đặt ở vị trí của Thành phố Cần Thơ trên bản đồ vùng Đồng bằng sông Cửu Long, hàm ý nơi Nhà trường toạ lạc.
+
+### Tỉ lệ logo
+
+Logo Trường Đại học Cần Thơ là một hình thoi đều, tỉ lệ chiều cao/chiều rộng là 1/1. Khoảng cách tối thiểu giữa logo và các chi tiết khác bằng ¼ kích thước của logo.
+
+<!-- image -->
+
+### Logo đơn sắc
+
+Logo đơn sắc được dùng khi in các ấn phẩm, tài liệu trắng đen và một số trường hợp Logo được làm từ những chất liệu đặc biệt có thể khắc chìm hoặc dập nổi.
+
+Các họa tiết chính được cách điệu giữ lại rõ ràng, không làm mất đi ý nghĩa của logo.
+
+<!-- image -->
+
+### Logo kết hợp chữ
+
+<!-- image -->
+
+Logo kết hợp chữ được dùng trên website Trường và một số ấn phẩm truyền thông có thể hiện hình ảnh logo và văn bản ghi tên Trường. Khoảng cách tối thiểu giữa logo và các chi tiết khác bằng ¼ kích thước của logo.
+
+<!-- image -->
+
+<!-- image -->
+
+### Logo viết tắt tiếng Anh
+
+Logo viết tắt tiếng Anh dùng để sử dụng trong một số trường hợp: kích thước logo rất nhỏ không thấy được các chi tiết của logo chính
+
+<!-- image -->
+
+<!-- image -->
+
+### Một số trường hợp sử dụng logo sai quy cách
+
+<!-- image -->
+
+### Logo Các đơn vị thành viên
+
+Logo các đơn vị thành viên trực thuộc trường bao gồm logo Trường Đại học Cần Thơ bên trái, tên đơn vị tiếng Việt ở phía trên và tiếng Anh ở phía dưới.
+
+<!-- image -->
+
+## Hệ thống font chữ
+
+### Font chữ chính
+
+Dùng để định dạng tiêu đề
+
+K2D
+
+K2D Thin					Trường Đại học Cần Thơ
+
+K2D ExtraLight				Trường Đại học Cần Thơ
+
+K2D Light					Trường Đại học Cần Thơ
+
+K2D						Trường Đại học Cần Thơ
+
+K2D Medium					Trường Đại học Cần Thơ
+
+K2D SemiBold					Trường Đại học Cần Thơ
+
+K2D ExtraBold				Trường Đại học Cần Thơ
+
+### Font chữ phụ
+
+Dùng để định dạng nội dung
+
+Readex Pro
+
+Readex Pro ExtraLight			Trường Đại học Cần Thơ
+
+Readex Pro Light				Trường Đại học Cần Thơ
+
+Readex Pro					Trường Đại học Cần Thơ
+
+**Readex Pro Medium			Trường Đại học Cần Thơ**
+
+## Hệ thống màu sắc
+
+Màu sắc chủ đạo trong bộ nhận diện thương hiệu được lấy từ màu logo Trường.
+
+RGB: 30, 90, 170
+
+CMYK: 90, 70, 0, 0
+
+Mã màu: #1f5ca9
+
+RGB: 0, 175, 240
+
+CMYK: 70, 15, 0, 0
+
+Mã màu: #00afef
+
+## Bộ ấn phẩm văn phòng
+
+### Giấy tiêu đề thư A4
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+### Sổ tay, viết
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+### Phong bì
+
+<!-- image -->
+
+<!-- image -->
+
+### Bìa sơ mi
+
+<!-- image -->
+
+<!-- image -->
+
+### Danh thiếp
+
+<!-- image -->
+
+### Thẻ tên
+
+<!-- image -->
+
+## Quà tặng
+
+### Áo thun, nón
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+### Ly nước
+
+<!-- image -->
+
+<!-- image -->
+
+### Túi
+
+<!-- image -->
+
+<!-- image -->
+
+### Ô, móc khóa
+
+<!-- image -->
+
+<!-- image -->
+
+### Xe
+
+<!-- image -->
+
+<!-- image -->
+
+## Bộ ấn phẩm số
+
+### Chữ ký email
+
+<!-- image -->
+
+<!-- image -->
+
+Chữ ký email của các đơn vị:
+
+<!-- image -->
+
+### Template PowerPoint
+
+### Hệ thống logo các website thuộc Trường
+
+<!-- image -->
+
+<!-- image -->
+
+### Băng-rol, áp phích
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->

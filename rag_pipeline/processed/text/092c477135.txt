@@ -1,0 +1,216 @@
+| BỘ GIÁO DỤC VÀ ĐÀO TẠO  **ĐẠI HỌC CẦN THƠ**   | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  **Độc lập - Tự do - Hạnh phúc**   |
+|-----------------------------------------------|---------------------------------------------------------------------------|
+| Số:             /TB-ĐHCT                      | *Cần Thơ, ngày         tháng 11 năm 2025*                                 |
+
+**THÔNG BÁO**
+
+**DANH MỤC TỔ HỢP XÉT TUYỂN ĐẠI HỌC CHÍNH QUY NĂM 2026**
+
+Căn cứ điểm a khoản 3 Điều 6 của Quy chế tuyển sinh đại học, tuyển sinh cao đẳng ngành Giáo dục mầm non ban hành kèm theo Thông tư số 08/2022/TT-BGDĐT ngày 06/6/2022 được sửa đổi, bổ sung một số điều bởi Thông tư số 06/2025/TT-BGDĐT ngày 19/3/2025 của Bộ trưởng Bộ Giáo dục và Đào tạo, Đại học Cần Thơ thông báo tổ hợp xét tuyển áp dụng cho tuyển sinh đại học hình thức chính quy từ năm 2026 như sau:
+
+| **TT**                                              | **Mã tuyển sinh**   | **Tên ngành tuyển sinh,**  ***(chuyên ngành, nếu có)***                                          | **Môn chính**  ***(nhân 2)***   | **Mã tổ hợp xét tuyển**      |
+|-----------------------------------------------------|---------------------|--------------------------------------------------------------------------------------------------|---------------------------------|------------------------------|
+| 1                                                   | 7140201             | Giáo dục mầm non                                                                                 | Năng khiếu GDMN                 | M01, M05, M06, M11           |
+| 2                                                   | 7140202             | Giáo dục Tiểu học                                                                                | Toán                            | A00, C01, C04, D01           |
+| 3                                                   | 7140204             | Giáo dục Công dân                                                                                | Ngữ văn                         | C00, C19, D14, D15, X70      |
+| 4                                                   | 7140206             | Giáo dục Thể chất                                                                                | Năng khiếu TDTT                 | T00, T01, T06, T10           |
+| 5                                                   | 7140209             | Sư phạm Toán học                                                                                 | Toán                            | A00, A01, B08, D07           |
+| 6                                                   | 7140210             | Sư phạm Tin học                                                                                  | Toán                            | A00, A01, D01, X26           |
+| 7                                                   | 7140211             | Sư phạm Vật lý                                                                                   | Vật lí                          | A00, A01, A02, X06           |
+| 8                                                   | 7140212             | Sư phạm Hóa học                                                                                  | Hóa học                         | A00, B00, D07, X10           |
+| 9                                                   | 7140213             | Sư phạm Sinh học                                                                                 | Sinh học                        | A02, B00, B03, B08           |
+| 10                                                  | 7140217             | Sư phạm Ngữ văn                                                                                  | Ngữ văn                         | C00, D01, D14, D15           |
+| 11                                                  | 7140218             | Sư phạm Lịch sử                                                                                  | Lịch sử                         | C00, C19, D14, C03, X70      |
+| 12                                                  | 7140219             | Sư phạm Địa lý                                                                                   | Địa lí                          | A07, C00, C04, D15           |
+| 13                                                  | 7140231             | Sư phạm Tiếng Anh                                                                                | Tiếng Anh                       | D01, D14, D15, D66, X78      |
+| 14                                                  | 7140233             | Sư phạm Tiếng Pháp                                                                               | Ngữ văn                         | D01, D03, D14, D64           |
+| 15                                                  | 7140247             | Sư phạm Khoa học tự nhiên                                                                        | Toán                            | A00, A01, A02, B00           |
+| 16                                                  | 7140249             | Sư phạm Lịch sử - Địa lý                                                                         | Ngữ văn                         | C00, C19, C20, D14, X70, X74 |
+| 17                                                  | 7220201             | Ngôn ngữ Anh,  *có 2 chuyên ngành:   - Ngôn ngữ Anh;    - Phiên dịch - Biên dịch tiếng Anh.*     | Tiếng Anh                       | D01, D09, D14, D15           |
+| 18                                                  | 7220201C            | Ngôn ngữ Anh (CTCLC)                                                                             | Tiếng Anh                       | D01, D09, D14, D15           |
+| 19                                                  | 7220201H            | Ngôn ngữ Anh - Hòa An                                                                            | Tiếng Anh                       | D01, D09, D14, D15           |
+| 20                                                  | 7220203             | Ngôn ngữ Pháp                                                                                    | Ngữ văn                         | D01, D03, D14, D64           |
+| 21                                                  | 7229001             | Triết học                                                                                        | Ngữ văn                         | C00, C19, D14, D15, X70      |
+| 22                                                  | 7229030             | Văn học                                                                                          | Ngữ văn                         | C00, D01, D14, D15           |
+| 23                                                  | 7310101             | Kinh tế                                                                                          | Toán                            | A00, A01, C02, D01           |
+| 24                                                  | 7310201             | Chính trị học                                                                                    | Ngữ văn                         | C00, C19, D14, D15, X70      |
+| 25                                                  | 7310301             | Xã hội học                                                                                       | Ngữ văn                         | C00, C19, D01, X70, X74      |
+| 26                                                  | 7310403             | Tâm lý học giáo dục                                                                              | Ngữ văn                         | C00, C14, C20, D14, X01, X74 |
+| 27                                                  | 7320101             | Báo chí                                                                                          | Ngữ văn                         | C00, D01, D14, D15           |
+| 28                                                  | 7320104             | Truyền thông đa phương tiện                                                                      | Toán                            | A00, A01, D01, X02           |
+| 29                                                  | 7320201             | Thông tin - thư viện                                                                             | Toán                            | A01, D01, C01, X26           |
+| 30                                                  | 7340101             | Quản trị kinh doanh                                                                              | Toán                            | A00, A01, C02, D01           |
+| 31                                                  | 7340101C            | Quản trị kinh doanh (CTCLC)                                                                      | Toán                            | A01, D01, D07, X26           |
+| 32                                                  | 7340101H            | Quản trị kinh doanh  - Hòa An                                                                    | Toán                            | A00, A01, C02, D01           |
+| 33                                                  | 7340115             | Marketing                                                                                        | Toán                            | A00, A01, C02, D01           |
+| 34                                                  | 7340120             | Kinh doanh quốc tế                                                                               | Toán                            | A00, A01, C02, D01           |
+| 35                                                  | 7340120C            | Kinh doanh quốc tế (CTCLC)                                                                       | Toán                            | A01, D01, D07, X26           |
+| 36                                                  | 7340121             | Kinh doanh thương mại                                                                            | Toán                            | A00, A01, C02, D01           |
+| 37                                                  | 7340122             | Thương mại điện tử                                                                               | Toán                            | A00, A01, C02, D01           |
+| 38                                                  | 7340201             | Tài chính – Ngân hàng                                                                            | Toán                            | A00, A01, C02, D01           |
+| 39                                                  | 7340201C            | Tài chính – Ngân hàng (CTCLC)                                                                    | Toán                            | A01, D01, D07, X26           |
+| 40                                                  | 7340301             | Kế toán                                                                                          | Toán                            | A00, A01, C02, D01           |
+| 41                                                  | 7340301S            | Kế toán - Sóc Trăng                                                                              | Toán                            | A00, A01, C02, D01           |
+| 42                                                  | 7340302             | Kiểm toán                                                                                        | Toán                            | A00, A01, C02, D01           |
+| 43                                                  | 7380101             | Luật                                                                                             | Ngữ văn                         | C00, C01, D01, X01           |
+| 44                                                  | 7380101H            | Luật - Hòa An                                                                                    | Ngữ văn                         | C00, C01, D01, X01           |
+| 45                                                  | 7380101S            | Luật - Sóc Trăng                                                                                 | Ngữ văn                         | C00, C01, D01, X01           |
+| 46                                                  | 7380103             | Luật dân sự và tố tụng dân sự                                                                    | Ngữ văn                         | C00, C01, D01, X01           |
+| 47                                                  | 7380107             | Luật kinh tế                                                                                     | Ngữ văn                         | C00, C01, D01, X01           |
+| 48                                                  | 7420101             | Sinh học                                                                                         | Sinh học                        | A02, B00, B03, B08           |
+| 49                                                  | 7420201             | Công nghệ sinh học                                                                               | Toán                            | A00, B00, B08, D07           |
+| 50                                                  | 7420201T            | Công nghệ sinh học (CTTT)                                                                        | Toán                            | A01, B08, D07, X28           |
+| 51                                                  | 7420203             | Sinh học ứng dụng                                                                                | Toán                            | A00, A01, B00, B08           |
+| 52                                                  | 7440112             | Hóa học                                                                                          | Hóa học                         | A00, B00, C02, D07           |
+| 53                                                  | 7440301             | Khoa học môi trường                                                                              | Toán                            | A00, A02, B00, D07           |
+| 54                                                  | 7460112             | Toán ứng dụng                                                                                    | Toán                            | A00, A01, A02, B00           |
+| 55                                                  | 7460201             | Thống kê                                                                                         | Toán                            | A00, A01, A02, B00           |
+| 56                                                  | 7480101             | Khoa học máy tính                                                                                | Toán                            | A00, A01, X06, X26           |
+| 57                                                  | 7480102             | Mạng máy tính và truyền thông dữ liệu                                                            | Toán                            | A00, A01, X06, X26           |
+| 58                                                  | 7480102C            | Mạng máy tính và truyền thông dữ liệu (CTCLC)                                                    | Toán                            | A01, D01, D07, X26           |
+| 59                                                  | 7480103             | Kỹ thuật phần mềm                                                                                | Toán                            | A00, A01, X06, X26           |
+| 60                                                  | 7480103C            | Kỹ thuật phần mềm (CTCLC)                                                                        | Toán                            | A01, D01, D07, X26           |
+| 61                                                  | 7480104             | Hệ thống thông tin                                                                               | Toán                            | A00, A01, X06, X26           |
+| 62                                                  | 7480104C            | Hệ thống thông tin (CTCLC)                                                                       | Toán                            | A01, D01, D07, X26           |
+| 63                                                  | 7480106             | Kỹ thuật máy tính  *(Chuyên ngành Thiết kế vi mạch bán dẫn)*                                     | Toán                            | A00, A01, X06, X07           |
+| 64                                                  | 7480107             | Trí tuệ nhân tạo                                                                                 | Toán                            | A00, A01, X06, X26           |
+| 65                                                  | 7480201             | Công nghệ thông tin                                                                              | Toán                            | A00, A01, X06, X26           |
+| 66                                                  | 7480201C            | Công nghệ thông tin (CTCLC)                                                                      | Toán                            | A01, D01, D07, X26           |
+| 67                                                  | 7480201H            | Công nghệ thông tin - Hòa An                                                                     | Toán                            | A00, A01, X06, X26           |
+| 68                                                  | 7480202             | An toàn thông tin                                                                                | Toán                            | A00, A01, X06, X26           |
+| 69                                                  | 7510401             | Công nghệ kỹ thuật hóa học                                                                       | Toán                            | A00, B00, D07, X11           |
+| 70                                                  | 7510401C            | Công nghệ kỹ thuật hóa học (CTCLC)                                                               | Toán                            | A00, A01, D07, X27           |
+| 71                                                  | 7510601             | Quản lý công nghiệp                                                                              | Toán                            | A00, A01, D01, X27           |
+| 72                                                  | 7510605             | Logistics và quản lý chuỗi cung ứng                                                              | Toán                            | A00, A01, D01, X27           |
+| 73                                                  | 7510605S            | Logistics và quản lý chuỗi cung ứng - Sóc Trăng                                                  | Toán                            | A00, A01, D01, X27           |
+| 74                                                  | 7520103             | Kỹ thuật cơ khí  *(Chuyên ngành Cơ khí chế tạo máy)*                                             | Toán                            | A00, A01, X06, X07           |
+| 75                                                  | 7520114             | Kỹ thuật cơ điện tử                                                                              | Toán                            | A00, A01, D07, X06           |
+| 76                                                  | 7520130             | Kỹ thuật ô tô                                                                                    | Toán                            | A00, A01, X06, X07           |
+| 77                                                  | 7520201             | Kỹ thuật điện                                                                                    | Toán                            | A00, A01, D07, X06           |
+| 78                                                  | 7520201C            | Kỹ thuật điện (CTCLC)                                                                            | Toán                            | A00, A01, D07, X27           |
+| 79                                                  | 7520207             | Kỹ thuật điện tử – viễn thông                                                                    | Toán                            | A00, A01, X06, X07           |
+| 80                                                  | 7520212             | Kỹ thuật y sinh                                                                                  | Toán                            | A00, A01, A02, B08           |
+| 81                                                  | 7520216             | Kỹ thuật điều khiển và tự động hóa                                                               | Toán                            | A00, A01, D07, X06           |
+| 82                                                  | 7520216C            | Kỹ thuật điều khiển và tự động hóa (CTCLC)                                                       | Toán                            | A00, A01, X26, X27           |
+| 83                                                  | 7520309             | Kỹ thuật vật liệu                                                                                | Toán                            | A00, B00, D07, X11           |
+| 84                                                  | 7520320             | Kỹ thuật môi trường                                                                              | Toán                            | A00, A01, B00, D07           |
+| 85                                                  | 7520401             | Vật lý kỹ thuật                                                                                  | Vật lí                          | A00, A01, A02, C01           |
+| 86                                                  | 7540101             | Công nghệ thực phẩm                                                                              | Toán                            | A00, A01, B00, D07           |
+| 87                                                  | 7540101C            | Công nghệ thực phẩm (CTCLC)                                                                      | Toán                            | A01, B08, D07, X27           |
+| 88                                                  | 7540104             | Công nghệ sau thu hoạch                                                                          | Toán                            | A00, A01, B00, D07           |
+| 89                                                  | 7540105             | Công nghệ chế biến thủy sản                                                                      | Toán                            | A00, A01, B00, X12           |
+| 90                                                  | 7540106             | Đảm bảo chất lượng và an toàn thực phẩm                                                          | Toán                            | A00, A01, B00, X12           |
+| 91                                                  | 7580101             | Kiến trúc                                                                                        | Vẽ mỹ thuật                     | V00, V01, V02, V03           |
+| 92                                                  | 7580105             | Quy hoạch vùng và đô thị                                                                         | Toán                            | A00, A01, B00, D07           |
+| 93                                                  | 7580201             | Kỹ thuật xây dựng                                                                                | Toán                            | A00, A01, V00, X07           |
+| 94                                                  | 7580201C            | Kỹ thuật xây dựng (CTCLC)                                                                        | Toán                            | A00, A01, D07, X27           |
+| 95                                                  | 7580202             | Kỹ thuật xây dựng công trình thủy                                                                | Toán                            | A00, A01, V00, X07           |
+| 96                                                  | 7580205             | Kỹ thuật xây dựng công trình giao thông                                                          | Toán                            | A00, A01, V00, X07           |
+| 97                                                  | 7580213             | Kỹ thuật cấp thoát nước                                                                          | Toán                            | A00, A01, B08, D07           |
+| 98                                                  | 7620103             | Khoa học đất  *(Chuyên ngành Quản lý đất và Công nghệ phân bón)*                                 | Toán                            | A00, B00, X12, X16           |
+| 99                                                  | 7620105             | Chăn nuôi                                                                                        | Toán                            | A00, A02, B00, B08           |
+| 100                                                 | 7620109             | Nông học                                                                                         | Toán                            | A00, B00, B08, X12           |
+| 101                                                 | 7620110             | Khoa học cây trồng,  *có 2 chuyên ngành:   - Khoa học cây trồng;   - Nông nghiệp công nghệ cao.* | Toán                            | A02, B00, B08, X12           |
+| 102                                                 | 7620112             | Bảo vệ thực vật                                                                                  | Toán                            | A00, B00, B08, X12           |
+| 103                                                 | 7620113             | Công nghệ rau hoa quả và cảnh quan                                                               | Toán                            | A00, B00, B08, X12           |
+| 104                                                 | 7620114H            | Kinh doanh nông nghiệp - Hòa An                                                                  | Toán                            | A00, C02, D01, X25           |
+| 105                                                 | 7620115             | Kinh tế nông nghiệp                                                                              | Toán                            | A00, A01, C02, D01           |
+| 106                                                 | 7620115H            | Kinh tế nông nghiệp - Hòa An                                                                     | Toán                            | A00, A01, C02, D01           |
+| 107                                                 | 7620301             | Nuôi trồng thủy sản                                                                              | Toán                            | A00, B00, B08, X12           |
+| 108                                                 | 7620301T            | Nuôi trồng thủy sản (CTTT)                                                                       | Toán                            | A01, B08, D07, X28           |
+| 109                                                 | 7620302             | Bệnh học thủy sản                                                                                | Toán                            | A00, B00, B08, X12           |
+| 110                                                 | 7620305             | Quản lý thủy sản                                                                                 | Toán                            | A00, B00, B08, X12           |
+| 111                                                 | 7640101             | Thú y                                                                                            | Toán                            | A02, B00, D07, X12           |
+| 112                                                 | 7640101C            | Thú y (CTCLC)                                                                                    | Toán                            | A01, B08, D07, X27           |
+| 113                                                 | 7720203             | Hóa dược                                                                                         | Hóa học                         | A00, B00, C02, D07           |
+| 114                                                 | 7810101             | Du lịch                                                                                          | Ngữ văn                         | C00, D01, D14, D15           |
+| 115                                                 | 7810101H            | Du lịch - Hòa An                                                                                 | Ngữ văn                         | C00, D01, D14, D15           |
+| 116                                                 | 7810101S            | Du lịch - Sóc Trăng                                                                              | Ngữ văn                         | C00, D01, D14, D15           |
+| 117                                                 | 7810103             | Quản trị dịch vụ du lịch và lữ hành                                                              | Toán                            | A00, A01, C02, D01           |
+| 118                                                 | 7810103C            | Quản trị dịch vụ du lịch và lữ hành (CTCLC)                                                      | Toán                            | A01, D01, D07, X26           |
+| 119                                                 | 7850101             | Quản lý tài nguyên và môi trường                                                                 | Toán                            | A00, A01, B00, D07           |
+| 120                                                 | 7850102             | Kinh tế tài nguyên thiên nhiên                                                                   | Toán                            | A00, A01, C02, D01           |
+| 121                                                 | 7850103             | Quản lý đất đai                                                                                  | Toán                            | A00, A01, B00, D07           |
+| **Các mã ngành dự kiến tuyển sinh mới từ năm 2026** |                     |                                                                                                  |                                 |                              |
+| 1                                                   | 7340205             | Công nghệ tài chính                                                                              | Toán                            | A00, A01, C02, D01           |
+| 2                                                   | 7460108             | Khoa học dữ liệu                                                                                 | Toán                            | A00, A01, X06, X26           |
+| 3                                                   | 7480106K            | Chuyên ngành Thiết kế vi mạch bán dẫn thuộc ngành Kỹ thuật máy tính (CTKSTN).                    | Toán                            | A00, A01, X06, X07           |
+| 4                                                   | 7520103C            | Kỹ thuật cơ khí (CTCLC)                                                                          | Toán                            | A00, A01, X26, X27           |
+| 5                                                   | 7580205             | Chuyên ngành Đường sắt tốc độ cao thuộc ngành Kỹ thuật xây dựng công trình giao thông.           | Toán                            | A00, A01, V00, X07           |
+| 6                                                   | 7580302             | Quản lý xây dựng                                                                                 | Toán                            | A00, A01, X26, X27           |
+| 7                                                   | 7620112C            | Bảo vệ thực vật (CTCLC)                                                                          | Toán                            | A00, A01, B00, B08           |
+
+***Ghi chú:***
+
+- CTCLC: chương trình chất lượng cao; CTTT: chương trình tiên tiến; CTKSTN: chương trình kỹ sư tài năng
+- Tra cứu các môn trong tổ hợp xét tuyển tại phụ lục kèm theo.
+- Điểm xét tuyển (thang điểm 40) bằng tổng điểm 3 môn trong tổ hợp xét tuyển (trong đó môn chính nhân hệ số 2), cộng với điểm ưu tiên khu vực, đối tượng theo quy chế tuyển sinh./.
+
+***Nơi nhận:*** **HIỆU TRƯỞNG**
+
+- Ban chỉ đạo và HĐTS năm 2026;
+
+- Website Tuyển sinh;
+
+- Các đơn vị đào tạo;
+
+- Lưu: VT, ĐT.
+
+**Trần Trung Tính**
+
+**PHỤ LỤC: BẢNG MÃ TỔ HỢP**
+
+*(Đính kèm Thông báo số             /TB-ĐHCT ngày       /11/2025 của Đại học Cần Thơ)*
+
+| **Mã TH**   | **Tên các môn**                        |
+|-------------|----------------------------------------|
+| A00         | Toán, Vật lí, Hóa học                  |
+| A01         | Toán, Vật lí, Tiếng Anh                |
+| A02         | Toán, Vật lí, Sinh học                 |
+| A07         | Toán, Lịch sử, Địa lí                  |
+| B00         | Toán, Hóa học, Sinh học                |
+| B03         | Toán, Sinh học, Ngữ văn                |
+| B08         | Toán, Sinh học, Tiếng Anh              |
+| C00         | Ngữ văn, Lịch sử, Địa lí               |
+| C01         | Ngữ văn, Toán, Vật lí                  |
+| C02         | Ngữ văn, Toán, Hóa học                 |
+| C03         | Ngữ văn, Toán, Lịch sử                 |
+| C04         | Ngữ văn, Toán, Địa lí                  |
+| C14         | Ngữ văn, Toán, Giáo dục công dân       |
+| C19         | Ngữ văn, Lịch sử, Giáo dục công dân    |
+| C20         | Ngữ văn, Địa lí, Giáo dục công dân     |
+| D01         | Ngữ văn, Toán, Tiếng Anh               |
+| D03         | Ngữ văn, Toán, Tiếng Pháp              |
+| D07         | Toán, Hóa học, Tiếng Anh               |
+| D09         | Toán, Lịch sử, Tiếng Anh               |
+| D14         | Ngữ văn, Lịch sử, Tiếng Anh            |
+| D15         | Ngữ văn, Địa lí, Tiếng Anh             |
+| D64         | Ngữ văn, Lịch sử, Tiếng Pháp           |
+| D66         | Ngữ văn, Giáo dục công dân, Tiếng Anh  |
+| M01         | Ngữ văn, Lịch sử, Năng khiếu GDMN      |
+| M05         | Ngữ Văn, Địa lí, Năng khiếu GDMN       |
+| M06         | Ngữ văn, Toán, Năng khiếu GDMN         |
+| M11         | Ngữ văn, Tiếng Anh, Năng khiếu GDMN    |
+| T00         | Toán, Sinh học, Năng khiếu TDTT        |
+| T01         | Ngữ văn, Toán, Năng khiếu TDTT         |
+| T06         | Toán, Hóa học, Năng khiếu TDTT         |
+| T10         | Toán, Tiếng Anh, Năng khiếu TDTT       |
+| V00         | Toán, Vật lí, Vẽ mỹ thuật              |
+| V01         | Toán, Ngữ văn, Vẽ mỹ thuật             |
+| V02         | Toán, Tiếng Anh, Vẽ mỹ thuật           |
+| V03         | Toán, Hóa học, Vẽ Mỹ thuật             |
+| X01         | Toán, Ngữ văn, Giáo dục KT&PL          |
+| X02         | Toán, Ngữ văn, Tin học                 |
+| X06         | Toán, Vật lí, Tin học                  |
+| X07         | Toán, Vật lí, Công nghệ công nghiệp    |
+| X10         | Toán, Hóa học, Tin học                 |
+| X11         | Toán, Hóa học, Công nghệ công nghiệp   |
+| X12         | Toán, Hóa học, Công nghệ nông nghiệp   |
+| X16         | Toán, Sinh học, Công nghệ nông nghiệp  |
+| X25         | Toán, Giáo dục KT&PL, Tiếng Anh        |
+| X26         | Toán, Tin học, Tiếng Anh               |
+| X27         | Toán, Công nghệ công nghiệp, Tiếng Anh |
+| X28         | Toán, Công nghệ nông nghiệp, Tiếng Anh |
+| X70         | Ngữ văn, Lịch sử, Giáo dục KT&PL       |
+| X74         | Ngữ văn, Địa lí, Giáo dục KT&PL        |
+| X78         | Ngữ văn, Giáo dục KT&PL, Tiếng Anh     |

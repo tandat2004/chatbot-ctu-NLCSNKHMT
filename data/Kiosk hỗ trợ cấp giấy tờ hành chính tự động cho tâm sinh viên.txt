@@ -1,0 +1,33 @@
+Hướng dẫn sử dụng Kiosk cấp giấy tờ xác nhận
+
+Sinh viên Đại học Cần Thơ có thể chủ động thực hiện thủ tục và nhận một số loại giấy tờ xác nhận tại Kiosk tự động đặt tại sảnh Nhà Điều hành.
+
+Các loại giấy tờ được hỗ trợ
+Mẫu in điểm học kỳ chính quy
+Giấy xác nhận sinh viên
+Giấy xác nhận sinh viên đang học
+Giấy xác nhận sinh viên làm hồ sơ vay vốn
+Thời gian phục vụ
+Buổi sáng: 7:00 - 11:30
+Buổi chiều: 13:30 - 17:00
+Địa điểm: Sảnh Nhà Điều hành, Đại học Cần Thơ
+5 bước thực hiện
+
+Bước 1. Đăng nhập
+Quét mã QR trên ứng dụng My CTUs hoặc đăng nhập bằng tài khoản sinh viên.
+
+Bước 2. Chọn giấy tờ
+Chọn loại giấy tờ, thông tin cần xác nhận và số lượng cần in.
+
+Bước 3. Chọn hình thức nhận
+
+Bản giấy: nhận bản in và mang đến Văn phòng Trường để đóng dấu.
+Bản điện tử: nhận file PDF được ký số, đóng dấu số và gửi về email sinh viên.
+
+Bước 4. Thanh toán
+Thanh toán lệ phí (nếu có) bằng các phương thức điện tử được tích hợp trên Kiosk.
+
+Bước 5. Nhận kết quả
+Kiểm tra lại thông tin và nhận giấy tờ theo hình thức đã chọn.
+
+Lưu ý: Mỗi giấy tờ được cấp đều có mã QR để xác thực, giúp kiểm tra tính chính xác của văn bản.

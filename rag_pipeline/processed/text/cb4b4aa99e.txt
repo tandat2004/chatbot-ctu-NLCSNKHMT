@@ -1,0 +1,39 @@
+Sơ đồ phòng học
+
+<!-- image -->
+
+KÝ HIỆU PHÒNG HỌC CỦA TỪNG DÃY NHÀ HỌC
+
+1. Ký hiệu các dãy nhà học
+
+**.../A3:** Các phòng học thuộc dãy nhà học A3. **...B1:** Các phòng học thuộc dãy nhà học B1. **.../C1:** Các phòng học thuộc dãy nhà học C1. **.../C2:** Các phòng học thuộc dãy nhà học C2. **.../CN:** Các phòng học thuộc dãy nhà học Trường Bách Khoa. **.../DB:** Các phòng học thuộc dãy nhà học Khoa Dự bị Dân tộc. **.../DI:** Các phòng học thuộc dãy nhà học Trường Công nghệ Thông tin và Truyền thông. **.../D1, .../D2:** Các phòng học thuộc dãy Nhà Điều hành. **.../HA:** Các phòng học thuộc dãy nhà học Khoa Phát triển Nông thôn. **.../KH:** Các phòng học thuộc dãy nhà học Khoa Khoa học Tự nhiên. **.../KL:** Các phòng học thuộc dãy nhà học Khoa Luật. **.../KT:** Các phòng học thuộc dãy nhà học Trường Kinh tế. **.../K1:** Các phòng học thuộc dãy nhà học Khoa Ngoại ngữ. **.../MT:** Các phòng học thuộc dãy nhà học Khoa Khoa học Chính trị. **.../NN:** Các phòng học thuộc dãy nhà học Trường Nông nghiệp. **.../TS:** Các phòng học thuộc dãy nhà học Trường Thủy sản. **.../XH:** Các phòng học thuộc dãy nhà học Khoa Khoa học Xã hội và Nhân văn. **...ATL:** Các phòng thuộc dãy nhà học ATL. **...RLC:** Các phòng thuộc Nhà học RLC. **...MTN:** Các phòng học thuộc dãy nhà học Khoa Môi trường và Tài nguyên Thiên nhiên. **xxx4T2:** Nhà học 4T2 (Khu 1).
+
+2. Hội trường và các địa điểm học đặc biệt
+
+**HTKHTN:** Hội trường Khoa Khoa học Tự nhiên. **HTXHNV:** Hội trường Khoa Khoa học Xã hội và Nhân văn. **HT/KSP:** Hội trường Khoa Sư phạm. **HTL/K2:** Hội trường Rùa. **TTGDQP:** Các phòng học thuộc Trung tâm Giáo dục Quốc phòng và An ninh ở Khu Hòa An (Hậu Giang). **ELEARN:** E-Learning (BK). **10TTNN:** Khoa Ngoại ngữ.
+
+3. Phòng thực hành, thí nghiệm và phòng máy tính
+
+**HDCVC1, HDCVC2:** Khoa Khoa học Tự nhiên (TH). **HHUUCO:** Khoa Khoa học Tự nhiên (TH). **HOAHC1, HOAHC2:** Khoa Khoa học Tự nhiên (TH). **HOAVC1, HOAVC2:** Khoa Khoa học Tự nhiên (TH). **L2-KH1:** Khoa Khoa học Tự nhiên (TH). **MT2/KH, MT3/KH:** Phòng máy tính Khoa Khoa học Tự nhiên.
+
+**H2-KH1, H2-KH2, H3-KH1, H3-KH2, HPTICH, HOAPT1, HOAPT2, HOATN1, PTN/KH:** Các phòng thực tập Hóa học thuộc Khoa Khoa học Tự nhiên.
+
+**L1-KH1, L1-KH2:** Các phòng thực tập Vật lý đại cương thuộc Khoa Khoa học Tự nhiên.
+
+**SH4, SH5, TNSINH, TTSINH:** Các phòng thực tập Sinh học đại cương thuộc Khoa Khoa học Tự nhiên.
+
+**DITHUD, THxxDI:** Các phòng thực tập Tin học đại cương thuộc Trường Công nghệ Thông tin và Truyền thông.
+
+**PTN-SH:** Phòng thí nghiệm thuộc Viện Công nghệ Sinh học và Thực phẩm.
+
+**PMT-XH:** Phòng máy tính thuộc Khoa Khoa học Xã hội và Nhân văn.
+
+4. Phòng học trực tuyến (phòng ảo)
+
+**TT03XH, TT04XH, TT05XH:** Trực tuyến.
+
+**TTxxKH, TTxxLK, TTQPxx:** Các phòng học trực tuyến (phòng ảo).
+
+5. Phòng học tại Khu Sóc Trăng
+
+**STA10, STA701, STA702, STA703, STA704, STA705, STA712, STA801, STAHT1:** Các phòng học thuộc Khu Sóc Trăng

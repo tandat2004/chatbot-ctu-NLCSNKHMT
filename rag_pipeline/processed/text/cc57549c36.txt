@@ -1,0 +1,19 @@
+## CÁCH XEM THỜI KHÓA BIỂU HỌC TẬP
+
+DAI HQC CÄN THO
+
+Mu In X5010B
+
+|   Thi khóa biu hc tp | Mã ső hoc phân - Thi khóa biu hc tp   | ý hiu - Thi khóa biu hc tp   | Tên hoc phân                        |   Mã ső G.Viên | Tên G.viêr   | Tiet thc 4   | Phòng hoc   | Đia dim      | Truc Tuän hc tuyên 123456789012345   |
+|----------------------|---------------------------------------|------------------------------|-------------------------------------|----------------|--------------|--------------|-------------|--------------|--------------------------------------|
+|                    2 | TN05S                                 | F09                          | Toán cao cp B                       |         001945 | Quí          | -----678--   | 104/C2      | Nhà hoc C2   | 12345678901                          |
+|                    3 | TN062                                 | F01                          | Hóa hc đi cương - Hóa dưc           |         001135 | Bach         | ---45----    | 105/KH      | Nhà hoc KHTN | 123456789012                         |
+|                    3 | TN059                                 | F09                          | Toán cao cãp B                      |         001945 | Quí          | -67---       | 207/KH      | Nhà hoc KHTN | 12345678901                          |
+|                    4 | KL010E                                | F07                          | Pháp lut đi cương và quyên con ngưi |         003075 | Trung        | -678--       | TT05LK      | Trc tuyên    | x 12345678901                        |
+|                    4 | SHCVHT                                | 635                          | vn hc tp sinh hot lp                |         002394 | Quy          | -9-          | 209/KH      | Nhà hc KHTN  | 3 7 1                                |
+|                    5 | TN048                                 | F08                          | Vt ly đąi cuơng                     |         001075 | Phong        |              | 201/C1      | Nhà hoc C1   | 123456789012                         |
+|                    5 | TN062                                 | F01                          | Hóa hc đi cương - Hóa duc           |         001135 | Bach         | ---45-----   | 105/KH      | Nhà hoc KHTN | 123456789012                         |
+|                    5 | TN042                                 | F01                          | Sinh hc đi cuơng                    |         002300 | Huân         | -----678--   | 204/KH      | Nhà hoc KHTN | 12345678901                          |
+|                    6 | TN048                                 | F08                          | vt ly đi cuơng                      |         001075 | Phong        | ---45----    | 209/KH      | Nhà hoc KHTN | 123456789012                         |
+
+<!-- image -->
