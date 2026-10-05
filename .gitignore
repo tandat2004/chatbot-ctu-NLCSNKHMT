@@ -1,0 +1,17 @@
+# Bỏ qua file chứa API Keys (TUYỆT ĐỐI QUAN TRỌNG)
+.env
+
+# Bỏ qua thư mục chứa dữ liệu thô (ví dụ: các file docx, pdf, txt)
+data/
+dataset/
+
+# Bỏ qua thư mục cơ sở dữ liệu ChromaDB
+db/
+chroma_db/
+
+# Bỏ qua các file cache và môi trường ảo của Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
