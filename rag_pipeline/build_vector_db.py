@@ -1,7 +1,4 @@
 """
-build_vector_db.py — Gộp chunk tài liệu (2_processed/chunks.jsonl) và FAQ
-(3_faq/*.csv) rồi nhúng vào ChromaDB. Dùng BAAI/bge-m3 (không dùng MiniLM).
-
 Cách dùng (chạy từ thư mục rag_pipeline\\):
     python build_vector_db.py --preview      # chỉ xem trước, KHÔNG nhúng, không tốn thời gian
     python build_vector_db.py                # build thật
@@ -14,7 +11,24 @@ import csv
 import json
 import os
 import re
+import sys
 from pathlib import Path
+
+# Đảm bảo in tiếng Việt trên console Windows không bị lỗi UnicodeEncodeError
+if sys.platform == "win32":
+    if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+    if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+        try:
+            sys.stderr.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
+# Thư mục chứa script này (rag_pipeline/)
+_BASE_DIR = Path(__file__).resolve().parent
 
 IMG_MD_PATTERN = re.compile(r"!\[[^\]]*\]\([^)]*\)")
 
@@ -31,11 +45,23 @@ import chromadb
 from chromadb.utils import embedding_functions
 
 EMBED_MODEL = "BAAI/bge-m3"
-DB_PATH = "./db/chroma_db"
+# Dùng absolute path để DB_PATH luôn đúng dù chạy từ thư mục nào
+DB_PATH = str(_BASE_DIR / "db" / "chroma_db")
 COLLECTION_NAME = "ctu_knowledge_base"
 
-CHUNKS_FILE = Path("data/2_processed/chunks.jsonl")
-FAQ_DIR = Path("data/3_faq")
+def _find_data_path(rel_path: str) -> Path:
+    for candidate in [
+        Path(rel_path),
+        Path("../data_pipeline") / rel_path,
+        Path("data_pipeline") / rel_path,
+    ]:
+        if candidate.exists():
+            return candidate
+    return _BASE_DIR / rel_path
+
+
+CHUNKS_FILE = _find_data_path("data/2_processed/chunks.jsonl")
+FAQ_DIR = _find_data_path("data/3_faq")
 
 Q_HINTS = ["cau_hoi", "câu hỏi", "cauhoi", "question"]
 A_HINTS = ["tra_loi", "trả lời", "traloi", "answer"]

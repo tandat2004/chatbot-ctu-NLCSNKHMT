@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trợ lý ảo học vụ & đời sống sinh viên CTU - Đại học Cần Thơ">
+  <title>CTU Student Assistant - Trợ lý Tân sinh viên</title>
+
+  <!-- Google Font tiếng Việt chuẩn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- ========================================== -->
+    <!-- 1. SIDEBAR BÊN TRÁI                        -->
+    <!-- ========================================== -->
+    <aside class="ctu-sidebar" id="sidebar">
+
+      <!-- Logo ĐH Cần Thơ -->
+      <div class="sidebar-brand">
+        <div class="brand-crest">
+          <svg viewBox="0 0 36 36" fill="none">
+            <path d="M18 3L4 9V19C4 26.5 10 32.5 18 34C26 32.5 32 26.5 32 19V9L18 3Z" fill="#ffb800" />
+            <path d="M18 6L7 11V18.5C7 24.5 11.5 29.5 18 31C24.5 29.5 29 24.5 29 18.5V11L18 6Z" fill="#0b3f8f" />
+            <path d="M13 18L17 22L24 14" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="brand-info">
+          <h2>ĐẠI HỌC CẦN THƠ</h2>
+          <span>Can Tho University</span>
+        </div>
+      </div>
+
+      <!-- Menu Navigation -->
+      <nav class="sidebar-menu">
+        <button class="nav-item active" id="navHome" onclick="switchView('home')">
+          <span class="nav-icon">🏠</span> Trang chủ
+        </button>
+        <button class="nav-item" id="navChat" onclick="switchView('chat')">
+          <span class="nav-icon">💬</span> Chat với trợ lý
+        </button>
+        <button class="nav-item" onclick="quickFilterTopic('tra-cuu')">
+          <span class="nav-icon">🔍</span> Tra cứu nhanh
+        </button>
+        <button class="nav-item" onclick="openAllDocsModal()">
+          <span class="nav-icon">📑</span> Tài liệu & Văn bản
+        </button>
+        <button class="nav-item" onclick="alert('Tính năng Lịch & Thông báo sắp ra mắt!')">
+          <span class="nav-icon">📅</span> Lịch & Thông báo
+        </button>
+        <button class="nav-item" onclick="alert('Cài đặt hệ thống')">
+          <span class="nav-icon">⚙️</span> Cài đặt
+        </button>
+      </nav>
+
+      <!-- Khung trợ lý nhỏ ở đáy sidebar -->
+      <div class="sidebar-mascot-card">
+        <div class="mascot-avatar-circle">
+          👦🏻
+        </div>
+        <h3>CTU Student Assistant</h3>
+        <p>"Luôn đồng hành trên hành trình đại học của bạn!"</p>
+      </div>
+
+    </aside>
+
+    <!-- ========================================== -->
+    <!-- 2. VÙNG NỘI DUNG CHÍNH (MAIN CONTAINER)    -->
+    <!-- ========================================== -->
+    <main class="main-viewport">
+
+      <!-- Nút mở menu trên mobile -->
+      <button class="btn-mobile-toggle" onclick="toggleSidebar()" aria-label="Menu">☰</button>
+
+      <!-- ==================================================== -->
+      <!-- CHẾ ĐỘ 1: TRANG CHỦ / PORTAL VIEW (Khớp với mockup) -->
+      <!-- ==================================================== -->
+      <section class="view-section active" id="homeView">
+        <div class="portal-container">
+
+          <!-- BANNER HERO CHÀO MỪNG -->
+          <div class="ctu-hero-banner">
+            <div class="hero-content">
+              <h1 class="hero-title">Chào mừng bạn đến với<br><span class="highlight">CTU Student Assistant!</span></h1>
+              <p class="hero-desc">Mình là trợ lý ảo của Trường Đại học Cần Thơ, luôn sẵn sàng hỗ trợ bạn tra cứu thông
+                tin và giải đáp thắc mắc nhé!</p>
+
+              <!-- THANH TÌM KIẾM HERO -->
+              <div class="hero-search-box">
+                <span class="search-lead-icon">💬</span>
+                <input type="text" id="heroInput" placeholder="Bạn muốn hỏi gì hôm nay?"
+                  onkeydown="handleHeroSearch(event)" />
+                <button class="btn-hero-submit" onclick="submitHeroSearch()" aria-label="Gửi câu hỏi">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- HÌNH ẢNH MINH HỌA LINH VẬT CTU -->
+            <div class="hero-mascot-wrapper">
+              <div class="mascot-speech-bubble">CTU luôn bên bạn!</div>
+              <div class="mascot-illustration">
+                <!-- Mascot CTU sinh viên dễ thương -->
+                <div class="mascot-character">
+                  <div class="mascot-badge">CTU</div>
+                  <div class="mascot-face">👦🏻👍</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PHẦN 6 DANH MỤC TRA CỨU NHANH -->
+          <div class="categories-header">
+            <h3>Bạn cần tìm thông tin gì?</h3>
+          </div>
+
+          <div class="categories-grid">
+
+            <!-- Card 1: Học phí -->
+            <div class="cat-card" onclick="askPreset('Mức thu học phí và các chính sách học bổng mới nhất?')">
+              <div class="cat-icon-box cat-amber">
+                💰
+              </div>
+              <div class="cat-info">
+                <h4>Học phí & Học bổng</h4>
+                <p>Mức thu, điều kiện, hồ sơ học bổng, hỗ trợ tài chính</p>
+              </div>
+            </div>
+
+            <!-- Card 2: Học vụ & Đào tạo -->
+            <div class="cat-card" onclick="askPreset('Quy định đăng ký học phần và quy chế đào tạo tín chỉ?')">
+              <div class="cat-icon-box cat-blue">
+                📖
+              </div>
+              <div class="cat-info">
+                <h4>Học vụ & Đào tạo</h4>
+                <p>Chương trình đào tạo, đăng ký học phần, quy chế</p>
+              </div>
+            </div>
+
+            <!-- Card 3: Điểm rèn luyện -->
+            <div class="cat-card" onclick="askPreset('Bảng đánh giá điểm rèn luyện mới và tiêu chí tính điểm?')">
+              <div class="cat-icon-box cat-gold">
+                ⭐
+              </div>
+              <div class="cat-info">
+                <h4>Điểm rèn luyện</h4>
+                <p>Tiêu chí, cách tính, tra cứu điểm</p>
+              </div>
+            </div>
+
+            <!-- Card 4: Ký túc xá -->
+            <div class="cat-card" onclick="askPreset('KTX có những loại phòng nào và thủ tục đăng ký ra sao?')">
+              <div class="cat-icon-box cat-purple">
+                🏠
+              </div>
+              <div class="cat-info">
+                <h4>Ký túc xá</h4>
+                <p>Đăng ký, nội quy, giá phòng, thủ tục</p>
+              </div>
+            </div>
+
+            <!-- Card 5: Đoàn - Hội & CLB -->
+            <div class="cat-card" onclick="askPreset('Điều kiện để đạt danh hiệu Sinh viên 5 tốt là gì?')">
+              <div class="cat-icon-box cat-violet">
+                👥
+              </div>
+              <div class="cat-info">
+                <h4>Đoàn – Hội & CLB</h4>
+                <p>Hoạt động phong trào, CLB, Sinh viên 5 tốt</p>
+              </div>
+            </div>
+
+            <!-- Card 6: Thủ tục & Dịch vụ khác -->
+            <div class="cat-card" onclick="askPreset('Mẫu đơn xin cấp giấy xác nhận sinh viên và thủ tục BHYT?')">
+              <div class="cat-icon-box cat-teal">
+                📋
+              </div>
+              <div class="cat-info">
+                <h4>Thủ tục & Dịch vụ khác</h4>
+                <p>Tài khoản MyCTU, BHYT, biểu mẫu, hướng dẫn chung</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==================================================== -->
+      <!-- CHẾ ĐỘ 2: GIAO DIỆN CHAT VỚI TRỢ LÝ (Active khi chat) -->
+      <!-- ==================================================== -->
+      <section class="view-section" id="chatView">
+
+        <!-- Chat Header -->
+        <header class="chat-header">
+          <div class="chat-header-profile">
+            <button class="btn-back-home" onclick="switchView('home')" title="Về trang chủ">←</button>
+            <div class="chat-avatar">👦🏻</div>
+            <div class="chat-meta">
+              <h2>CTU Student Assistant</h2>
+              <span>Trợ lý ảo tân sinh viên</span>
+            </div>
+          </div>
+          <div class="chat-header-actions">
+            <button class="btn-clear-chat" onclick="clearConversation()" title="Làm mới đoạn chat">🔄 Làm mới</button>
+          </div>
+        </header>
+
+        <!-- Khung danh sách tin nhắn cuộn -->
+        <div class="chat-stream" id="chatStream">
+          <div class="chat-inner" id="chatThread">
+            <!-- Tin nhắn được render tự động bằng app.js tại đây -->
+          </div>
+        </div>
+
+        <!-- Khung gợi ý câu hỏi tiếp theo (Follow-up chips) -->
+        <div class="suggested-chips-bar" id="suggestedChipsBar">
+          <span class="chips-label">Bạn có thể hỏi thêm:</span>
+          <div class="chips-list" id="chipsList"></div>
+        </div>
+
+        <!-- Khung soạn tin nhắn -->
+        <footer class="chat-composer-wrap">
+          <div class="composer-container">
+            <input type="text" id="chatInput" class="composer-input" placeholder="Nhập câu hỏi của bạn..."
+              autocomplete="off" />
+            <button id="btnSend" class="btn-chat-send" onclick="sendChatMessage()" aria-label="Gửi">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </footer>
+
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- MODAL XEM CHI TIẾT TÀI LIỆU & TRÍCH ĐOẠN -->
+  <div class="doc-modal-overlay" id="docModal" onclick="handleModalOverlayClick(event, 'docModal')">
+    <div class="doc-modal-card">
+      <div class="doc-modal-header">
+        <div class="doc-tag-pdf" id="modalDocTag">PDF</div>
+        <div class="doc-title-box">
+          <h4 id="modalDocTitle">QD_1819_QD-DHCT.pdf</h4>
+          <span id="modalDocSub">Trích đoạn văn bản tham chiếu</span>
+        </div>
+        <button class="btn-close-modal" onclick="closeDocModal()" aria-label="Đóng">✕</button>
+      </div>
+      <div class="doc-modal-body" id="modalDocBody">
+        <div class="doc-excerpt-box" id="modalDocExcerpt">
+          Đang tải dữ liệu trích đoạn...
+        </div>
+      </div>
+      <div class="doc-modal-footer">
+        <a id="modalDownloadBtn" class="btn-modal-download" href="#" target="_blank" download>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Tải tài liệu này về máy</span>
+        </a>
+        <button class="btn-modal-action" onclick="closeDocModal()">Đóng cửa sổ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DANH MỤC TÀI LIỆU & VĂN BẢN (KHI BẤM SIDEBAR) -->
+  <div class="doc-modal-overlay" id="allDocsModal" onclick="handleModalOverlayClick(event, 'allDocsModal')">
+    <div class="doc-modal-card all-docs-card">
+      <div class="doc-modal-header">
+        <div class="doc-tag-pdf doc-tag-blue">KHO TÀI LIỆU</div>
+        <div class="doc-title-box">
+          <h4>Kho Tài liệu & Biểu mẫu Đại học Cần Thơ</h4>
+          <span>Hơn 90+ văn bản quy chế, biểu mẫu học bổng & ký túc xá</span>
+        </div>
+        <button class="btn-close-modal" onclick="closeAllDocsModal()" aria-label="Đóng">✕</button>
+      </div>
+      <div class="doc-modal-search-bar">
+        <input type="text" id="docsSearchInput" placeholder="Tìm kiếm văn bản, quyết định, biểu mẫu..." oninput="filterDocsList(this.value)" />
+      </div>
+      <div class="doc-modal-body all-docs-body" id="allDocsListContainer">
+        <div class="loading-state">Đang tải danh sách tài liệu từ máy chủ...</div>
+      </div>
+      <div class="doc-modal-footer">
+        <button class="btn-modal-action" onclick="closeAllDocsModal()">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tích hợp thư viện Markdown Marked.js và JavaScript điều khiển -->
+  <script src="js/marked.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -6,8 +6,9 @@
 
 ---
 
-## 📌 Báo cáo tiến độ & Dữ liệu
-* 📑 **Báo cáo chi tiết tiến độ, số lượng & kết quả dữ liệu:** 👉 [Xem file BAO_CAO_TIEN_DO_DU_LIEU.md](./BAO_CAO_TIEN_DO_DU_LIEU.md)
+## 📌 Báo cáo tiến độ & Danh mục tài liệu
+* 📑 **Báo cáo chi tiết tiến độ & kết quả dữ liệu:** 👉 [Xem file BAO_CAO_TIEN_DO_DU_LIEU.md](./BAO_CAO_TIEN_DO_DU_LIEU.md)
+* 📚 **Danh mục chi tiết 97 tài liệu hiện có trong hệ thống:** 👉 [Xem file DANH_MUC_TAI_LIEU.md](./DANH_MUC_TAI_LIEU.md)
 
 ---
 
@@ -17,8 +18,8 @@
 * **Tài liệu chuẩn hóa đưa vào RAG:** **88 văn bản** chính quy (Quy chế học vụ 3266, 40 biểu mẫu đơn từ, học phí, học bổng, KTX,...)
 * **Số ký tự trích xuất:** **671.593 ký tự** (~156 trang văn bản)
 * **Số đoạn tri thức (Chunks):** **670 chunks** (chiều dài trung bình: **754 ký tự/chunk**)
-* **Ngân hàng câu hỏi (FAQ Bank):** **443 câu hỏi - đáp** thực tế từ K52 Buddy Chatbot
-* **Độ phủ câu hỏi / Chunk:** **0.66** (Đạt chuẩn TỐT)
+* **Ngân hàng câu hỏi (FAQ Bank):** **474 câu hỏi - đáp** thực tế từ sinh viên CTU và biểu mẫu học vụ
+* **Độ phủ câu hỏi / Chunk:** **0.68** (Đạt chuẩn TỐT)
 * **Cơ sở dữ liệu Vector:** **ChromaDB** với **1.113 vectors** (nhúng bằng mô hình `BAAI/bge-m3`)
 * **Kiến trúc sinh:** Hỗ trợ đa nhà cung cấp LLM (OpenAI, Google Gemini, Groq LLaMA 3) kèm System Prompt chống ảo giác và trích dẫn số nguồn minh bạch.
 
@@ -28,21 +29,21 @@
 
 ```text
 chatbot-ctu-NLCSNKHMT/
-├── BAO_CAO_TIEN_DO_DU_LIEU.md    # Báo cáo chi tiết tiến độ và kết quả dữ liệu gửi Thầy
 ├── README.md                     # Giới thiệu dự án
 ├── index.html                    # Giao diện Web Trợ lý Học vụ CTU
-├── rag_pipeline/
+├── rag_pipeline/                 # Thư mục chính phục vụ Chatbot & RAG (được đẩy lên Git)
 │   ├── api.py                    # FastAPI server cung cấp endpoint /chat
 │   ├── generate.py               # Module truy hồi ChromaDB và sinh câu trả lời RAG
 │   ├── build_vector_db.py        # Script nhúng chunks + FAQ vào ChromaDB (BAAI/bge-m3)
-│   ├── audit_data.py             # Script kiểm toán chất lượng và độ phủ dữ liệu
-│   ├── crawl.py                  # Công cụ thu thập Q&A mẫu từ hệ thống K52 Buddy
-│   ├── download_source_files.py  # Công cụ tải văn bản nguồn gốc tự động
+│   └── requirements.txt          # Danh sách thư viện cần thiết cho RAG Chatbot
+├── data_pipeline/                # Quá trình thu thập & lọc dữ liệu (đã ignore trên Git)
+│   ├── crawl.py                  # Thu thập Q&A mẫu từ hệ thống K52 Buddy
+│   ├── download_source_files.py  # Tải văn bản nguồn gốc tự động
 │   ├── process_docs_gpt.py       # Tiền xử lý tài liệu đa định dạng bằng IBM Docling
-│   └── data/
-│       ├── 1_raw/                # 96 tệp tài liệu gốc thu thập từ CTU
-│       ├── 2_processed/          # documents.jsonl, chunks.jsonl, report.csv
-│       └── 3_faq/                # ctu_chatbot_qa.csv (443 cặp hỏi đáp)
+│   ├── generate_question_bank.py # Sinh ngân hàng câu hỏi thử nghiệm bằng LLM
+│   ├── list_source.py            # Lọc danh mục các tài liệu nguồn
+│   ├── audit_data.py             # Kiểm toán chất lượng và độ phủ dữ liệu
+│   └── data/                     # Thư mục dữ liệu (1_raw, 2_processed, 3_faq)
 └── db/
     └── chroma_db/                # Cơ sở dữ liệu Vector ChromaDB (1.113 vectors)
 ```
@@ -54,20 +55,30 @@ chatbot-ctu-NLCSNKHMT/
 ### 1. Cài đặt thư viện
 ```bash
 cd rag_pipeline
-pip install -r requirements_gpt.txt
-pip install fastapi uvicorn chromadb python-dotenv
+pip install -r requirements.txt
 ```
 
-### 2. Kiểm toán dữ liệu
-```bash
-python audit_data.py
-```
+### 2. Khởi tạo / Cập nhật Vector Database
+
+* **Cách A: Thêm / Cập nhật nhanh 1 tài liệu mới (Khuyên dùng):**
+  ```bash
+  python ingest_file.py "data_pipeline/data/1_raw/ten_file_moi.pdf"
+  ```
+  *(Tự động trích xuất bảng biểu bằng Docling, cắt chunk, nhúng vector vào ChromaDB chỉ trong 15-20 giây).*
+
+* **Cách B: Xây dựng lại toàn bộ Vector DB từ đầu (Tất cả tài liệu + FAQ):**
+  ```bash
+  cd rag_pipeline
+  python build_vector_db.py
+  ```
 
 ### 3. Khởi chạy API Server
 ```bash
+cd rag_pipeline
 python api.py
 ```
 Server chạy tại `http://127.0.0.1:8000`.
 
 ### 4. Mở giao diện Web
 Mở trực tiếp file [index.html](./index.html) trên trình duyệt hoặc chạy qua Live Server để tương tác với Chatbot.
+

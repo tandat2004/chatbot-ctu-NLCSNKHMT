@@ -1,9 +1,10 @@
-# Bỏ qua file chứa API Keys (TUYỆT ĐỐI QUAN TRỌNG)
+# Bỏ qua file chứa API Keys
 .env
 
-# Bỏ qua thư mục chứa dữ liệu thô (ví dụ: các file docx, pdf, txt)
+# Bỏ qua thư mục chứa dữ liệu thô và các script tiền xử lý dữ liệu
 data/
 dataset/
+data_pipeline/
 
 # Bỏ qua thư mục cơ sở dữ liệu ChromaDB
 db/

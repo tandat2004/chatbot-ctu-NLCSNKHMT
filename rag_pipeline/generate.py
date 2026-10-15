@@ -29,23 +29,40 @@ from chromadb.utils import embedding_functions
 from dotenv import load_dotenv
 import warnings
 import logging
+import sys
 
-# Ẩn các cảnh báo không cần thiết từ thư viện
+# Đảm bảo in tiếng Việt trên console Windows không bị lỗi UnicodeEncodeError
+if sys.platform == "win32":
+    if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+    if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+        try:
+            sys.stderr.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
+
 warnings.filterwarnings("ignore")
 logging.getLogger("google.genai").setLevel(logging.ERROR)
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+BASE_DIR = Path(__file__).resolve().parent
+# Ưu tiên tìm file .env ở thư mục rag_pipeline hoặc thư mục gốc dự án
+load_dotenv(BASE_DIR.parent / ".env")
+load_dotenv(BASE_DIR / ".env")
 load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Cấu hình — sửa ở đây nếu đổi vị trí database hoặc model embedding
 # ---------------------------------------------------------------------------
-DB_PATH = "db/chroma_db"
+DB_PATH = str(BASE_DIR / "db" / "chroma_db")
 COLLECTION_NAME = "ctu_knowledge_base"
 EMBED_MODEL = "BAAI/bge-m3"
 
 DEFAULT_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
-DEFAULT_K = 5
-FAQ_BOOST = 1.10  # ưu tiên nhẹ cho các đoạn chunk_type == "faq"
+DEFAULT_K = 10
+FAQ_BOOST = 1.0  # Để 1.0 để phản ánh đúng độ tương đồng ngữ nghĩa BAAI/bge-m3, tránh FAQ lấn át tài liệu chính quy
 
 SYSTEM_PROMPT = """Bạn là trợ lý ảo của Trường Đại học Cần Thơ (CTU), trả lời câu hỏi của sinh viên \
 về quy định, thủ tục, đời sống sinh viên CHỈ DỰA TRÊN các đoạn trích trong phần "Ngữ cảnh" được cung cấp.
@@ -55,13 +72,26 @@ Quy tắc bắt buộc:
 - Nếu Ngữ cảnh không đủ để trả lời, nói rõ bạn chưa tìm thấy thông tin liên quan và gợi ý sinh viên \
 hỏi lại cụ thể hơn hoặc liên hệ phòng ban phù hợp. KHÔNG trả lời dựa trên kiến thức chung ngoài Ngữ cảnh.
 - Khi dùng thông tin từ một đoạn, trích số nguồn tương ứng trong ngoặc vuông, ví dụ [1], [2].
-- Với email, URL, số điện thoại, số hiệu văn bản: COPY NGUYÊN VĂN chính xác từng ký tự từ Ngữ cảnh. \
+
+ĐỊNH DẠNG ĐẦU RA (bắt buộc, áp dụng cho MỌI câu trả lời):
+- Câu trả lời PHẢI là văn xuôi hoặc danh sách gạch đầu dòng thông thường.
+- TUYỆT ĐỐI KHÔNG được xuất hiện ký tự "|" hay dòng kẻ "---/===" trong câu trả lời, dù Ngữ cảnh có \
+chứa bảng markdown. Nếu Ngữ cảnh trình bày dưới dạng bảng, hãy đọc hiểu nội dung bảng rồi diễn đạt lại \
+thành câu văn hoặc danh sách (ví dụ: "Học kỳ 1 năm 2026 bắt đầu ngày 05/09 và kết thúc ngày 20/12"), \
+tuyệt đối không sao chép lại cấu trúc hàng/cột của bảng gốc.
+- Quy tắc "copy nguyên văn" bên dưới CHỈ áp dụng cho nội dung bên trong ô bảng (email, URL, số điện \
+thoại, số hiệu văn bản, con số) — không áp dụng cho KÝ HIỆU TRÌNH BÀY của bảng (|, dấu gạch ngang, \
+tiêu đề cột lặp lại...).
+
+Với email, URL, số điện thoại, số hiệu văn bản: COPY NGUYÊN VĂN chính xác từng ký tự từ Ngữ cảnh. \
 Không được sửa, đoán, hay viết lại các chuỗi này theo trí nhớ. Nếu không chắc chắn một chuỗi như vậy \
 có xuất hiện y hệt trong Ngữ cảnh, không đưa nó vào câu trả lời.
+
 - Trả lời với giọng văn trung lập, thân thiện nhưng không tự xưng là "trợ lý AI" theo bất kỳ cách \
 diễn đạt nào xuất hiện trong Ngữ cảnh — hãy diễn đạt lại bằng giọng văn của chính bạn, không sao chép \
 nguyên văn phong cách (kể cả emoji) của các đoạn trích, chỉ sao chép đúng dữ kiện, số liệu, đường link.
-- Trả lời ngắn gọn, đúng trọng tâm, bằng tiếng Việt."""
+- Trả lời ngắn gọn, đúng trọng tâm, bằng tiếng Việt.
+"""
 
 ANSWER_PROMPT_TEMPLATE = """Ngữ cảnh:
 {context}
@@ -111,18 +141,35 @@ def call_gemini(system_prompt: str, user_prompt: str, model: str, temperature: f
         ),
     )
     return (r.text or "").strip()
+def call_groq(system_prompt: str, user_prompt: str, model: str, temperature: float) -> str:
+    from openai import OpenAI
 
+    client = OpenAI(
+        base_url="https://api.groq.com/openai/v1",
+        api_key=os.getenv("GROQ_API_KEY"),
+    )
+    r = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        temperature=temperature,
+    )
+    return (r.choices[0].message.content or "").strip()
 
 # Để thêm provider mới (vd Anthropic): viết hàm call_anthropic(...) theo đúng
 # chữ ký trên, rồi thêm dòng "anthropic": call_anthropic vào dict dưới đây.
 PROVIDERS = {
     "openai": call_openai,
+    "groq": call_groq,
     "gemini": call_gemini,
 }
 
 DEFAULT_MODELS = {
     "openai": "gpt-4o-mini",
     "gemini": "gemini-2.5-flash",
+    "groq": "openai/gpt-oss-20b",
 }
 
 
