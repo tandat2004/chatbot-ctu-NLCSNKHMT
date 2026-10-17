@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Báo cáo tiến độ & Danh mục tài liệu
-* 📑 **Báo cáo chi tiết tiến độ & kết quả dữ liệu:** 👉 [Xem file BAO_CAO_TIEN_DO_DU_LIEU.md](./BAO_CAO_TIEN_DO_DU_LIEU.md)
+* 📑 **Báo cáo Giai đoạn 2 (Xây dựng CSDL tri thức & Hệ thống tìm kiếm):** 👉 [Xem file BAO_CAO_GIAI_DOAN_2.md](./BAO_CAO_GIAI_DOAN_2.md)
 * 📚 **Danh mục chi tiết 97 tài liệu hiện có trong hệ thống:** 👉 [Xem file DANH_MUC_TAI_LIEU.md](./DANH_MUC_TAI_LIEU.md)
 
 ---
