@@ -244,8 +244,35 @@ class Answerer:
 
         context = self.kb.format_context(hits)
         prompt = ANSWER_PROMPT_TEMPLATE.format(context=context, question=question)
-        text = self.call(SYSTEM_PROMPT, prompt, self.model, self.temperature)
+        
+        import time
+        max_retries = 3
+        text = ""
+        for attempt in range(max_retries):
+            try:
+                text = self.call(SYSTEM_PROMPT, prompt, self.model, self.temperature)
+                break
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "rate_limit" in err_str.lower():
+                    if attempt < max_retries - 1:
+                        sleep_s = 3 * (attempt + 1)
+                        print(f"[CẢNH BÁO] Groq Rate limit (429), chờ {sleep_s}s để thử lại lần {attempt+2}...", flush=True)
+                        time.sleep(sleep_s)
+                        continue
+                print(f"[CẢNH BÁO] Provider {self.provider} gặp sự cố: {e}. Thử fallback...", flush=True)
+                if self.provider != "openai" and "openai" in PROVIDERS:
+                    try:
+                        text = PROVIDERS["openai"](SYSTEM_PROMPT, prompt, "gpt-4o-mini", self.temperature)
+                        break
+                    except Exception as err_openai:
+                        print(f"[CẢNH BÁO] Fallback OpenAI thất bại: {err_openai}", flush=True)
+                        raise e
+                else:
+                    raise e
+                
         return Answer(text=text, hits=hits)
+
 
 
 def _print_answer(result: Answer) -> None:

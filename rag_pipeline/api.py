@@ -123,7 +123,10 @@ print("Đang khởi động hệ thống AI...")
 kb = KnowledgeBase()
 # Đặt mặc định là Groq để phản hồi nhanh nhất (bạn có thể đổi sang gemini)
 # Dùng model Llama 3 siêu nhanh:
-bot = Answerer(kb, provider="groq", model="openai/gpt-oss-20b", temperature=0.2)
+import os
+default_provider = os.getenv("LLM_PROVIDER", "groq")
+bot = Answerer(kb, provider=default_provider, temperature=0.2)
+
 print("Hệ thống đã sẵn sàng!")
 
 # Định nghĩa dữ liệu đầu vào
@@ -140,10 +143,31 @@ def classify_topic(query: str) -> str:
     elif any(w in q for w in ["đăng ký", "tín chỉ", "điểm", "thi", "nghỉ học", "bảo lưu", "phòng học", "c1", "c2"]):
         return "📚 Đào tạo & Học vụ"
     return "🔍 Thông tin chung"
+GREETING_KEYWORDS = ["chào", "xin chào", "hello", "hi", "bạn là ai", "trợ lý là ai", "cảm ơn", "thank"]
+
+def check_greeting(query: str):
+    q = query.strip().lower()
+    if any(q == kw or q.startswith(kw) for kw in ["xin chào", "chào bạn", "chào", "hello", "hi"]):
+        return (
+            "Xin chào bạn! Mình là Trợ lý ảo sinh viên CTU 👦🏻. "
+            "Mình có thể hỗ trợ bạn giải đáp về quy chế học vụ, đăng ký học phần, "
+            "học phí, học bổng, ký túc xá và biểu mẫu của Đại học Cần Thơ. Bạn cần mình hỗ trợ điều gì hôm nay?"
+        )
+    if any(kw in q for kw in ["cảm ơn", "thank", "tks"]):
+        return "Rất vui được hỗ trợ bạn! Chúc bạn có một kỳ học thật hiệu quả tại Đại học Cần Thơ nhé! ✨"
+    return None
 
 # API Endpoint xử lý chat
 @app.post("/chat")
 async def chat_endpoint(req: ChatRequest):
+    # 1. Bắt câu chào hỏi nhanh
+    greeting_reply = check_greeting(req.query)
+    if greeting_reply:
+        return {
+            "text": greeting_reply,
+            "topic": "💬 Trò chuyện",
+            "sources": []
+        }
     topic = classify_topic(req.query)
     result = bot.answer(req.query)
     

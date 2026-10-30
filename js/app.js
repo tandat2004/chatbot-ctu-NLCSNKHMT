@@ -143,41 +143,43 @@ function renderBotAnswer(text, sources) {
   const row = document.createElement('div');
   row.className = 'msg-row bot-side';
 
-  // Format các gạch đầu dòng thành thẻ tiêu chí đẹp như ảnh
+  // Dùng marked.parse để render đầy đủ in đậm, danh sách gạch đầu dòng, bảng...
   let formattedHtml = '';
-  const lines = text.split('\n');
+  if (typeof marked !== 'undefined') {
+    formattedHtml = marked.parse(text);
+  } else {
+    formattedHtml = `<p>${escapeHTML(text).replace(/\n/g, '<br>')}</p>`;
+  }
 
-  lines.forEach(line => {
-    const trimmed = line.trim();
-    if (trimmed.startsWith('- 1.') || trimmed.startsWith('- 2.') || trimmed.startsWith('- 3.') || trimmed.startsWith('- 4.') || trimmed.startsWith('- 5.')) {
-      const parts = trimmed.replace(/^- \d+\.\s*/, '').split(':');
-      formattedHtml += `
-        <div class="criteria-item">
-          <div class="criteria-num">${trimmed.charAt(2)}</div>
-          <div><b>${parts[0]}:</b> ${parts[1] || ''}</div>
-        </div>
-      `;
-    } else if (trimmed) {
-      formattedHtml += `<p style="margin-bottom: 8px;">${escapeHTML(trimmed)}</p>`;
-    }
-  });
 
-  // Gắn thẻ tài liệu PDF nếu có
+  // Gắn thẻ tài liệu tham chiếu nếu có
   let sourceBadgeHtml = '';
   if (sources && sources.length > 0) {
+    const firstSrc = sources[0];
+    const fileName = typeof firstSrc === 'object' ? (firstSrc.file || 'Tài liệu CTU') : firstSrc;
+    const excerpt = typeof firstSrc === 'object' ? (firstSrc.excerpt || '') : '';
+    const dlUrl = typeof firstSrc === 'object' && firstSrc.download_url ? `${API_BASE_URL}${firstSrc.download_url}` : '#';
+    const ext = fileName.split('.').pop().toUpperCase();
+    const tagClass = ext === 'DOCX' ? 'docx-icon-tag' : (ext === 'XLSX' ? 'xlsx-icon-tag' : 'pdf-icon-tag');
+
     sourceBadgeHtml = `
-      <div class="source-doc-badge" onclick="openDocModal('${escapeHTML(sources[0])}')">
-        <div class="doc-left">
-          <span class="pdf-icon-tag">PDF</span>
-          <div>
-            <div class="doc-name">${escapeHTML(sources[0])}</div>
+      <div class="source-doc-badge">
+        <div class="doc-left" onclick="showExcerptModal('${escapeHTML(fileName)}', '${escapeHTML(excerpt)}')">
+          <span class="${tagClass}">${ext}</span>
+          <div class="doc-info">
+            <div class="doc-name" title="${escapeHTML(fileName)}">${escapeHTML(fileName)}</div>
             <div class="doc-page">Nhấn để xem trích đoạn văn bản</div>
           </div>
         </div>
-        <span>↗</span>
+        <div class="doc-actions">
+          <a class="btn-badge-download" href="${dlUrl}" target="_blank" download title="Tải văn bản về máy">
+            📥 Tải về
+          </a>
+        </div>
       </div>
     `;
   }
+
 
   row.innerHTML = `
     <div class="msg-avatar">👦🏻</div>
@@ -243,3 +245,65 @@ function escapeHTML(str) {
 window.addEventListener('DOMContentLoaded', () => {
   updateFollowUpChips();
 });
+
+// Xem trích đoạn văn bản trong modal
+function showExcerptModal(title, excerpt) {
+  document.getElementById('modalDocTitle').textContent = title;
+  document.getElementById('modalDocExcerpt').textContent = excerpt || 'Không có trích đoạn hiển thị.';
+  document.getElementById('docModal').classList.add('open');
+}
+
+// Đóng modal khi bấm ra ngoài vùng đen
+function handleModalOverlayClick(e, modalId) {
+  if (e.target.id === modalId) {
+    document.getElementById(modalId).classList.remove('open');
+  }
+}
+
+// Mở modal danh mục tất cả tài liệu có sẵn từ server
+async function openAllDocsModal() {
+  const modal = document.getElementById('allDocsModal');
+  const container = document.getElementById('allDocsListContainer');
+  modal.classList.add('open');
+  try {
+    const res = await fetch(`${API_BASE_URL}/api/documents`);
+    const data = await res.json();
+    window._allDocumentsCache = data.documents || [];
+    renderDocsList(window._allDocumentsCache);
+  } catch (err) {
+    container.innerHTML = '<div style="padding:20px; color:#ef4444;">Không thể tải danh sách tài liệu.</div>';
+  }
+}
+
+function closeAllDocsModal() {
+  document.getElementById('allDocsModal').classList.remove('open');
+}
+
+function renderDocsList(docs) {
+  const container = document.getElementById('allDocsListContainer');
+  if (!docs.length) {
+    container.innerHTML = '<div style="padding:20px; text-align:center;">Không tìm thấy tài liệu phù hợp.</div>';
+    return;
+  }
+  container.innerHTML = docs.map(d => `
+    <div style="display:flex; justify-content:space-between; align-items:center; padding:10px; border-bottom:1px solid #f1f5f9;">
+      <div>
+        <div style="font-weight:600; font-size:13px;">${escapeHTML(d.name)}</div>
+        <div style="font-size:11px; color:#64748b;">${d.type} • ${d.size_kb} KB</div>
+      </div>
+      <a class="btn-badge-download" href="${API_BASE_URL}${d.download_url}" target="_blank" download>Tải về</a>
+    </div>
+  `).join('');
+}
+
+function filterDocsList(keyword) {
+  if (!window._allDocumentsCache) return;
+  const kw = keyword.toLowerCase();
+  const filtered = window._allDocumentsCache.filter(d => d.name.toLowerCase().includes(kw));
+  renderDocsList(filtered);
+}
+
+function quickFilterTopic(topic) {
+  switchView('chat');
+  sendQuestion('Hướng dẫn tra cứu các thông tin học vụ quan trọng');
+}
