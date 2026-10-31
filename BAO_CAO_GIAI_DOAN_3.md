@@ -5,63 +5,11 @@
 > **Đơn vị đào tạo:** Trường Công nghệ Thông tin & Truyền thông – Trường Đại học Cần Thơ (CTU)  
 > **Nội dung báo cáo giai đoạn:** **GIAI ĐOẠN 3 — XÂY DỰNG TRỢ LÝ ẢO HỎI ĐÁP BẰNG NGÔN NGỮ TỰ NHIÊN**
 
----
-
-## 📑 MỤC LỤC TỔNG QUAN
-
-1. [Mục tiêu và Nhiệm vụ Giai đoạn 3](#1-mục-tiêu-và-nhiệm-vụ-giai-đoạn-3)
-2. [Nhiệm vụ 1: Tích hợp mô hình ngôn ngữ lớn (LLM Multi-Provider)](#2-nhiệm-vụ-1-tích-hợp-mô-hình-ngôn-ngữ-lớn-llm-multi-provider)
-   - 2.1. Kiến trúc trừu tượng đa nhà cung cấp (Provider Abstraction)
-   - 2.2. Lựa chọn mô hình cốt lõi: Groq Cloud LLaMA 3 & OpenAI GPT
-   - 2.3. Cơ chế chịu lỗi tự động (Fault Tolerance & Retry Backoff) khi gặp Rate Limit (429)
-3. [Nhiệm vụ 2: Kết nối hệ thống tìm kiếm ngữ nghĩa với mô hình sinh câu trả lời](#3-nhiệm-vụ-2-kết-nối-hệ-thống-tìm-kiếm-ngữ-nghĩa-với-mô-hình-sinh-câu-trả-lời)
-   - 3.1. Cầu nối truy xuất ngữ cảnh Dense Retrieval từ ChromaDB
-   - 3.2. Thuật toán tái định dạng ngữ cảnh (Context Formatting & Deduplication)
-   - 3.3. Định danh và đánh số nguồn trích dẫn pháp lý theo chỉ mục `[1]`, `[2]`, `[3]`
-4. [Nhiệm vụ 3: Xây dựng quy trình RAG (Retrieval-Augmented Generation)](#4-nhiệm-vụ-3-xây-dựng-quy-trình-rag-retrieval-augmented-generation)
-   - 4.1. Thiết kế kỹ thuật Prompt Engineering chuyên sâu chống ảo giác (Anti-Hallucination)
-   - 4.2. Xử lý chuẩn hóa định dạng: Khử bảng Markdown thô sang văn xuôi mạch lạc
-   - 4.3. Kiến trúc luồng xử lý RAG End-to-End từ Client đến Server
-   - 4.4. Tích hợp Backend API RESTful với FastAPI và Streaming Response
-5. [Nhiệm vụ 4: Xử lý các câu hỏi phổ biến và Tối ưu trải nghiệm hội thoại](#5-nhiệm-vụ-4-xử-lý-các-câu-hỏi-phổ-biến-và-tối-ưu-trải-nghiệm-hội-thoại)
-   - 5.1. Cơ chế phản hồi nhanh (Fast Path Intent Routing) cho câu hỏi chào hỏi/giao tiếp
-   - 5.2. Ngân hàng câu hỏi mẫu trực quan (Quick Suggestion Chips) theo chủ đề nghiệp vụ
-   - 5.3. Liên kết tải tài liệu nguồn gốc tự động (`/download/{filename}`)
-6. [Nhiệm vụ 5: Kiểm thử chất lượng câu trả lời & Đánh giá thực nghiệm](#6-nhiệm-vụ-5-kiểm-thử-chất-lượng-câu-trả-lời--đánh-giá-thực-nghiệm)
-   - 6.1. Xây dựng bộ công cụ kiểm thử tự động `evaluate_rag.py`
-   - 6.2. Bộ Test Cases chuẩn hóa bao quát 7 nhóm nghiệp vụ sinh viên CTU
-   - 6.3. Bảng số liệu kiểm thử thực nghiệm (Thời gian phản hồi, Nguồn trích dẫn, Độ phủ)
-   - 6.4. Đánh giá tính trung thực (Faithfulness) và khả năng dẫn chứng văn bản gốc
-7. [Tổng kết Giai đoạn 3 & Định hướng hoàn thiện đề tài](#7-tổng-kết-giai-đoạn-3--định-hướng-hoàn-thiện-đề-tài)
-
----
-
 ## 1. Mục tiêu và Nhiệm vụ Giai đoạn 3
 
 Tiếp nối thành công của Giai đoạn 2 (đã hoàn thiện cơ sở tri thức Vector ChromaDB và bộ công cụ tìm kiếm ngữ nghĩa Dense Retrieval với mô hình `BAAI/bge-m3`), **Giai đoạn 3 đóng vai trò "bộ não" tổng hợp và phát ngôn** của toàn hệ thống.
 
 Mục tiêu cốt lõi của Giai đoạn 3 là cho phép sinh viên đặt câu hỏi bằng **ngôn ngữ tự nhiên hoàn toàn tự do** (không cần đúng từ khóa cứng), hệ thống tự động suy luận, trích xuất chính xác các quy định học vụ tương ứng và tổng hợp câu trả lời mạch lạc, chuẩn xác, kèm trích dẫn văn bản pháp quy chính thức của Trường Đại học Cần Thơ.
-
-```mermaid
-flowchart TD
-    User([Sinh viên đặt câu hỏi]) --> IntentCheck{Kiểm tra ý định nhanh<br/>Regex Greeting Filter}
-    
-    IntentCheck -- Câu chào hỏi xã giao --> FastReply[Phản hồi thân thiện tức thì<br/>0ms - Tiết kiệm Token]
-    
-    IntentCheck -- Câu hỏi nghiệp vụ / quy chế --> DenseRetriever[Truy xuất ngữ cảnh Dense Retrieval<br/>ChromaDB + BAAI/bge-m3]
-    
-    DenseRetriever --> ContextAugment[Làm giàu ngữ cảnh Prompt<br/>Đánh số thứ tự trích dẫn 1, 2, 3...]
-    
-    ContextAugment --> SystemPrompt[System Prompt chống ảo giác<br/>Quy tắc văn phong & Chuyển đổi bảng]
-    
-    SystemPrompt --> LLMProvider[Mô hình Ngôn ngữ Lớn<br/>Groq LLaMA 3 / OpenAI GPT / Gemini]
-    
-    LLMProvider --> RetryHandler{Kiểm tra phản hồi & Rate Limit}
-    RetryHandler -- Lỗi 429 TPM -- --> ExponentialBackoff[Tự động Chờ & Thử lại Retry Backoff] --> LLMProvider
-    RetryHandler -- Thành công --> OutputFormatter[Bộ chuẩn hóa câu trả lời RAG]
-    
-    OutputFormatter --> WebUI[Giao diện Chat Web trực quan<br/>Nguồn dẫn chứng + Link tải PDF/DOCX]
-```
 
 ### 5 Nhiệm vụ trọng tâm được thực hiện:
 1. **Tích hợp mô hình ngôn ngữ lớn (LLM):** Kết nối API các mô hình thế hệ mới, hỗ trợ cơ chế chuyển đổi linh hoạt đa nhà cung cấp.
